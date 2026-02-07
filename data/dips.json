@@ -1,0 +1,65 @@
+[
+  {
+    "titel": "Hvidløgsaioli",
+    "kategori": "dips",
+    "portioner": 6,
+    "tid": { "tilberedningMin": 10 },
+    "ingredienser": [
+      { "mængde": 1, "enhed": "stk", "ingrediens": "æg" },
+      { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg" },
+      { "mængde": 2, "enhed": "tsk", "ingrediens": "citronsaft" },
+      { "mængde": 2, "enhed": "dl", "ingrediens": "neutral olie" }
+    ],
+    "fremgangsmåde": ["..."],
+    "billede": ""
+  },
+  {
+    "titel": "Peanut dip (til vietnamesiske forårsruller)",
+    "kategori": "dips",
+    "portioner": 6,
+    "tid": { "tilberedningMin": 10 },
+    "ingredienser": [
+      { "mængde": 4, "enhed": "spsk", "ingrediens": "peanutbutter" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "sojasauce" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "limesaft" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "sukker eller honning" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "revet hvidløg" },
+      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "chili eller chiliflager", "valgfri": true },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "varmt vand", "note": "juster konsistens" }
+    ],
+    "fremgangsmåde": ["Rør peanutbutter, sojasauce, lime og sukker sammen.", "Tilsæt hvidløg og chili.", "Justér konsistensen med varmt vand til en cremet dip.", "Smag til med mere syre eller salt."],
+    "billede": ""
+  },
+  {
+    "titel": "Soyadip (til gyoza)",
+    "kategori": "dips",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 5 },
+    "ingredienser": [
+      { "mængde": 3, "enhed": "spsk", "ingrediens": "sojasauce" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "riseddike" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "sesamolie" },
+      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "sukker" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "finthakket forårsløg", "valgfri": true },
+      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "chiliflager eller chiliolie", "valgfri": true }
+    ],
+    "fremgangsmåde": ["Rør alle ingredienser sammen i en lille skål.", "Smag til med mere eddike eller sojasauce.", "Server som dip til gyoza eller dumplings."],
+    "billede": ""
+  },
+  {
+    "titel": "Chiliolie",
+    "kategori": "olier",
+    "portioner": 1,
+    "tid": { "tilberedningMin": 15 },
+    "ingredienser": [
+      { "mængde": 2, "enhed": "dl", "ingrediens": "neutral olie" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "chiliflager" },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "stjerneanis", "valgfri": true },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "kanelstang", "valgfri": true },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "sesamfrø", "valgfri": true },
+      { "mængde": 1, "enhed": "fed", "ingrediens": "hvidløg", "valgfri": true }
+    ],
+    "fremgangsmåde": ["Varm olien langsomt op i en lille gryde.", "Tilsæt krydderier og hvidløg og varm forsigtigt uden at branke.", "Hæld varm olie over chiliflager i en varmefast skål.", "Lad olien køle af og trække smag før brug."],
+    "billede": ""
+  }
+]

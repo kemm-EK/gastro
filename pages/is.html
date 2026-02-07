@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Is</title>
+
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/cards.css" />
+    <link rel="stylesheet" href="../css/navigation.css" />
+
+    <script src="../js/shared.js" defer></script>
+  </head>
+
+  <body>
+    <header class="topbar">
+      <nav class="site-nav" data-root="..">
+        <div class="nav-inner">
+          <a class="brand" href="../index.html">Opskrifter</a>
+          <!-- Desktop inline links (valgfrit men rart) -->
+          <div class="nav-links-inline">
+            <a href="../pages/hovedretter.html">Hovedretter</a>
+            <a href="../pages/dips.html">Dips/Saucer</a>
+            <a href="../pages/broed.html">Brød</a>
+            <a href="../pages/drinks.html">Drinks</a>
+            <a href="../pages/is.html">Is</a>
+            <a href="../pages/desserter.html">Desserter</a>
+            <a href="../pages/snacks.html">Snacks og Tapas</a>
+          </div>
+          <button class="nav-toggle" type="button" popovertarget="mainMenu" popovertargetaction="toggle" aria-label="Åbn menu">
+            <span class="burger"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <div id="mainMenu" popover class="menu-popover">
+      <a href="../pages/hovedretter.html">Hovedretter</a>
+      <a href="../pages/dips.html">Dips/Saucer</a>
+      <a href="../pages/broed.html">Brød</a>
+      <a href="../pages/drinks.html">Drinks</a>
+      <a href="../pages/is.html">Is</a>
+      <a href="../pages/desserter.html">Desserter</a>
+      <a href="../pages/snacks.html">Snacks & Tapas</a>
+    </div>
+
+    <main class="wrap">
+      <h1>Is & Sorbet</h1>
+      <div id="recipeGrid" class="grid-tiles"></div>
+    </main>
+
+    <script src="../js/recipes.js"></script>
+    <script>
+      RecipesPage.init({
+        jsonPath: "../data/is.json",
+        titleKey: "titel",
+      });
+    </script>
+  </body>
+</html>

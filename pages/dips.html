@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hovedretter</title>
+
+    <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/cards.css" />
+
+    <!-- <script src="../js/shared.js" defer></script> -->
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="site-nav">
+        <div class="nav-inner">
+          <a class="brand" href="../index.html">Opskrifter</a>
+
+          <!-- Desktop inline links (valgfrit men rart) -->
+          <div class="nav-links-inline">
+            <a href="../pages/hovedretter.html">Hovedretter</a>
+            <a href="../pages/dips.html">Dips/Saucer</a>
+            <a href="../pages/broed.html">Brød</a>
+            <a href="../pages/drinks.html">Drinks</a>
+            <a href="../pages/is.html">Is</a>
+            <a href="../pages/desserter.html">Desserter</a>
+            <a href="../pages/snacks.html">Snacks og Tapas</a>
+          </div>
+
+          <!-- Mobil burger -->
+          <button class="nav-toggle" type="button" popovertarget="mainMenu" popovertargetaction="toggle" aria-label="Åbn menu">
+            <span class="burger" aria-hidden="true"></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Popover menu (mobil / og kan også bruges på desktop hvis du vil) -->
+      <div id="mainMenu" popover class="menu-popover">
+        <a href="../pages/hovedretter.html">Hovedretter</a>
+        <a href="../pages/dips.html">Dips/Saucer</a>
+        <a href="../pages/broed.html">Brød</a>
+        <a href="../pages/drinks.html">Drinks</a>
+        <a href="../pages/is.html">Is</a>
+        <a href="../pages/desserter.html">Desserter</a>
+        <a href="../pages/snacks.html">Snacks og Tapas</a>
+      </div>
+    </header>
+    <main class="wrap">
+      <div class="page-tools">
+        <label class="muted" for="catFilter">Vis:</label>
+        <select id="catFilter" class="select">
+          <option value="all">Alle</option>
+          <option value="dips">Dips</option>
+          <option value="saucer">Saucer</option>
+          <option value="olier">Olier</option>
+          <option value="dressinger">Dressinger</option>
+        </select>
+      </div>
+
+      <div id="recipeGrid" class="grid-tiles"></div>
+    </main>
+
+    <!-- Popover til opskrift-detaljer -->
+    <div id="recipePopover" popover class="recipe-popover">
+      <button class="popover-close" type="button" popovertarget="recipePopover" popovertargetaction="hide" aria-label="Luk">✕</button>
+
+      <div class="popover-head">
+        <h2 id="popTitle"></h2>
+        <p id="popDesc" class="muted"></p>
+      </div>
+
+      <div class="popover-body">
+        <section>
+          <h3>Ingredienser</h3>
+          <ul id="popIngredients" class="ing-list"></ul>
+        </section>
+
+        <section>
+          <h3>Fremgangsmåde</h3>
+          <ol id="popSteps" class="step-list"></ol>
+        </section>
+      </div>
+    </div>
+
+    <script src="../js/recipes.js"></script>
+    <script>
+      RecipesPage.init({
+        jsonPath: "../data/dips.json",
+        titleKey: "titel",
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,228 @@
+[
+  {
+    "titel": "Takoyaki (med grøntsager)",
+    "kategori": "snacks",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 40 },
+    "ingredienser": [
+      { "mængde": 150, "enhed": "g", "ingrediens": "hvedemel" },
+      { "mængde": 4, "enhed": "dl", "ingrediens": "grøntsagsbouillon" },
+      { "mængde": 2, "enhed": "stk", "ingrediens": "æg" },
+      { "mængde": 2, "enhed": "stk", "ingrediens": "forårsløg, finthakket" },
+      { "mængde": 100, "enhed": "g", "ingrediens": "finthakket kål" },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "gulerod, fintrevet" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "sojasauce" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "salt" },
+      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "hvid peber" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "neutral olie til stegning" }
+    ],
+    "fremgangsmåde": [
+      "Pisk mel, bouillon og æg sammen til en tynd dej.",
+      "Rør soja, salt og peber i.",
+      "Vend grøntsagerne i dejen.",
+      "Varm en takoyaki-pande eller æbleskivepande godt op og pensl hullerne med olie.",
+      "Fyld hullerne næsten helt op med dej.",
+      "Når kanterne begynder at sætte sig, drejes kuglerne 90° med en pind eller gaffel, så flydende dej kan løbe ned.",
+      "Fortsæt med at dreje lidt ad gangen, til kuglerne er runde og gyldne hele vejen rundt.",
+      "Bag dem færdige i 5–6 minutter i alt.",
+      "Server varme med mayo, takoyaki-sauce eller sojasauce."
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Tteokbokki",
+    "kategori": "snacks",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 25 },
+    "ingredienser": [
+      { "mængde": 500, "enhed": "g", "ingrediens": "koreanske riskager (tteok)" },
+      { "mængde": 4, "enhed": "dl", "ingrediens": "vand eller bouillon" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "gochujang (koreansk chili-pasta)" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "sojasauce" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "sukker eller honning" },
+      { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
+      { "mængde": 2, "enhed": "stk", "ingrediens": "forårsløg i stykker" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "sesamolie", "valgfri": true }
+    ],
+    "fremgangsmåde": [
+      "Hvis riskagerne er hårde, lægges de i varmt vand i 10 minutter.",
+      "Bring vand/bouillon i kog i en bred pande.",
+      "Rør gochujang, soja, sukker og hvidløg ud i væsken.",
+      "Tilsæt riskager og lad dem simre 8–10 minutter.",
+      "Rør jævnligt, så saucen tykner og klistrer omkring riskagerne.",
+      "Tilsæt forårsløg de sidste minutter.",
+      "Smag til og tilsæt evt. sesamolie ved servering.",
+      "Server straks mens retten er varm og sej i konsistensen."
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Jalapeños med bacon og flødeost",
+    "kategori": "snacks",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 30 },
+    "ingredienser": [
+      { "mængde": 8, "enhed": "stk", "ingrediens": "jalapeños" },
+      { "mængde": 150, "enhed": "g", "ingrediens": "flødeost" },
+      { "mængde": 80, "enhed": "g", "ingrediens": "revet cheddar eller mozzarella", "valgfri": true },
+      { "mængde": 8, "enhed": "skiver", "ingrediens": "bacon" },
+      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "hvidløgspulver", "valgfri": true }
+    ],
+    "fremgangsmåde": [
+      "Forvarm ovnen til 200 °C.",
+      "Halvér jalapeños på langs og fjern kerner og hinder (brug evt. handsker).",
+      "Bland flødeost med evt. revet ost og krydderi.",
+      "Fyld hver halvdel med osteblanding.",
+      "Vikl en halv skive bacon omkring hver fyldt jalapeño.",
+      "Læg dem på bagepapir og bag 18–22 minutter, til bacon er sprød.",
+      "Lad dem køle 3–4 minutter før servering — fyldet er meget varmt."
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Patatas Bravas",
+    "kategori": "tapas",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 35 },
+    "ingredienser": [
+      { "mængde": 800, "enhed": "g", "ingrediens": "kartofler i tern" },
+      { "mængde": 3, "enhed": "spsk", "ingrediens": "olivenolie" },
+      { "mængde": 2, "enhed": "tsk", "ingrediens": "paprika" },
+      { "mængde": 1, "enhed": "dl", "ingrediens": "tomatsauce" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "chili" }
+    ],
+    "fremgangsmåde": ["Vend kartofler i olie og krydderi.", "Bag ved 220 °C i 25–30 min til sprøde.", "Server med krydret tomatsauce og evt. aioli."],
+    "billede": ""
+  },
+  {
+    "titel": "Gambas al Ajillo",
+    "kategori": "tapas",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 10 },
+    "ingredienser": [
+      { "mængde": 400, "enhed": "g", "ingrediens": "rejer, rå eller optøede" },
+      { "mængde": 4, "enhed": "fed", "ingrediens": "hvidløg i skiver" },
+      { "mængde": 4, "enhed": "spsk", "ingrediens": "olivenolie" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "chiliflager" }
+    ],
+    "fremgangsmåde": ["Varm olie og hvidløg langsomt.", "Tilsæt rejer og steg kort til netop færdige.", "Server straks med brød."],
+    "billede": ""
+  },
+  {
+    "titel": "Spansk Tortilla i tern",
+    "kategori": "tapas",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 30 },
+    "ingredienser": [
+      { "mængde": 400, "enhed": "g", "ingrediens": "kartofler i tynde skiver" },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "løg i skiver" },
+      { "mængde": 5, "enhed": "stk", "ingrediens": "æg" }
+    ],
+    "fremgangsmåde": ["Steg kartofler og løg møre.", "Vend i piskede æg.", "Bag på pande ved lav varme til fast.", "Afkøl og skær i tern."],
+    "billede": ""
+  },
+  {
+    "titel": "Falafel",
+    "kategori": "tapas",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 35 },
+    "ingredienser": [
+      { "mængde": 400, "enhed": "g", "ingrediens": "udblødte kikærter" },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "løg" },
+      { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "spidskommen" }
+    ],
+    "fremgangsmåde": ["Blend ingredienser groft.", "Form kugler.", "Fritér eller steg sprøde."],
+    "billede": ""
+  },
+  {
+    "titel": "Baba Ganoush",
+    "kategori": "tapas",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 35 },
+    "ingredienser": [
+      { "mængde": 2, "enhed": "stk", "ingrediens": "auberginer" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "tahin" },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "citron, saft" }
+    ],
+    "fremgangsmåde": ["Bag auberginer møre.", "Skrab kødet ud.", "Blend med tahin og citron."],
+    "billede": ""
+  },
+  {
+    "titel": "Gyoza",
+    "kategori": "streetfood",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 40 },
+    "ingredienser": [
+      { "mængde": 20, "enhed": "stk", "ingrediens": "gyoza-dejplader" },
+      { "mængde": 200, "enhed": "g", "ingrediens": "hakket svinekød eller grøntsagsfyld" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "sojasauce" }
+    ],
+    "fremgangsmåde": ["Fyld og fold dumplings.", "Steg sprøde på pande.", "Damp færdige med lidt vand."],
+    "billede": ""
+  },
+  {
+    "titel": "Friske forårsruller",
+    "kategori": "streetfood",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 25 },
+    "ingredienser": [
+      { "mængde": 8, "enhed": "stk", "ingrediens": "rispapir" },
+      { "mængde": 200, "enhed": "g", "ingrediens": "grøntsager i strimler" },
+      { "mængde": 100, "enhed": "g", "ingrediens": "nudler eller rejer", "valgfri": true }
+    ],
+    "fremgangsmåde": ["Blødgør rispapir.", "Fyld og rul stramt.", "Server med peanutdip."],
+    "billede": ""
+  },
+  {
+    "titel": "Edamame med salt og chili",
+    "kategori": "snacks",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 8 },
+    "ingredienser": [
+      { "mængde": 400, "enhed": "g", "ingrediens": "edamamebønner" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "flagesalt" },
+      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "chiliflager" }
+    ],
+    "fremgangsmåde": ["Kog bønner 4–5 min.", "Dryp af og vend i salt og chili.", "Server varme."],
+    "billede": ""
+  },
+  {
+    "titel": "Mini Quesadillas",
+    "kategori": "fingerfood",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 15 },
+    "ingredienser": [
+      { "mængde": 4, "enhed": "stk", "ingrediens": "tortillas" },
+      { "mængde": 200, "enhed": "g", "ingrediens": "revet ost" },
+      { "mængde": 100, "enhed": "g", "ingrediens": "kylling eller grøntsager", "valgfri": true }
+    ],
+    "fremgangsmåde": ["Fyld tortillas med ost og fyld.", "Steg sprøde på pande.", "Skær i trekanter."],
+    "billede": ""
+  },
+  {
+    "titel": "Empanadas",
+    "kategori": "fingerfood",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 45 },
+    "ingredienser": [
+      { "mængde": 1, "enhed": "pakke", "ingrediens": "empanada- eller tærtedej" },
+      { "mængde": 250, "enhed": "g", "ingrediens": "krydret kødfyld eller grøntfyld" }
+    ],
+    "fremgangsmåde": ["Udstik cirkler.", "Fyld og fold halvmåner.", "Bag ved 200 °C til gyldne."],
+    "billede": ""
+  },
+  {
+    "titel": "Nachos med toppings",
+    "kategori": "snacks",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 15 },
+    "ingredienser": [
+      { "mængde": 200, "enhed": "g", "ingrediens": "tortillachips" },
+      { "mængde": 150, "enhed": "g", "ingrediens": "revet ost" },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "jalapeños", "valgfri": true }
+    ],
+    "fremgangsmåde": ["Fordel chips og ost på plade.", "Bag til osten smelter.", "Server med salsa og guacamole."],
+    "billede": ""
+  }
+]

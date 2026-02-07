@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Desserter</title>
+
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/cards.css" />
+    <link rel="stylesheet" href="../css/navigation.css" />
+  </head>
+
+  <body>
+    <!-- NAV (popover-version) -->
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a class="brand" href="../index.html">Opskrifter</a>
+        <!-- Desktop inline links (valgfrit men rart) -->
+        <div class="nav-links-inline">
+          <a href="../pages/hovedretter.html">Hovedretter</a>
+          <a href="../pages/dips.html">Dips/Saucer</a>
+          <a href="../pages/broed.html">Brød</a>
+          <a href="../pages/drinks.html">Drinks</a>
+          <a href="../pages/is.html">Is</a>
+          <a href="../pages/desserter.html">Desserter</a>
+          <a href="../pages/snacks.html">Snacks og Tapas</a>
+        </div>
+        <button class="nav-toggle" type="button" popovertarget="mainMenu" popovertargetaction="toggle" aria-label="Åbn menu">
+          <span class="burger" aria-hidden="true"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div id="mainMenu" popover class="menu-popover">
+      <a href="../pages/hovedretter.html">Hovedretter</a>
+      <a href="../pages/dips.html">Dips/Saucer</a>
+      <a href="../pages/broed.html">Brød</a>
+      <a href="../pages/drinks.html">Drinks</a>
+      <a href="../pages/is.html">Is</a>
+      <a href="../pages/desserter.html">Desserter</a>
+      <a href="../pages/snacks.html">Snacks og Tapas</a>
+    </div>
+
+    <main class="wrap">
+      <h1 style="margin-top: 10px">Desserter</h1>
+
+      <div class="page-tools">
+        <label class="muted" for="catFilter">Vis:</label>
+        <select id="catFilter" class="select">
+          <option value="all">Alle</option>
+          <option value="desserter">Desserter</option>
+          <option value="kager">Kager</option>
+          <option value="sweets">Sweets</option>
+        </select>
+      </div>
+
+      <div id="recipeGrid" class="grid-tiles"></div>
+    </main>
+
+    <!-- Popover til opskrift -->
+    <div id="recipePopover" popover class="recipe-popover">
+      <button class="popover-close" type="button" popovertarget="recipePopover" popovertargetaction="hide" aria-label="Luk">✕</button>
+
+      <div class="popover-head">
+        <h2 id="popTitle"></h2>
+        <p id="popDesc" class="muted"></p>
+      </div>
+
+      <div class="popover-body">
+        <section>
+          <h3>Ingredienser</h3>
+          <ul id="popIngredients" class="ing-list"></ul>
+        </section>
+
+        <section>
+          <h3>Fremgangsmåde</h3>
+          <ol id="popSteps" class="step-list"></ol>
+        </section>
+
+        <section id="popTipsWrap" style="display: none">
+          <h3>Tips & teknikker</h3>
+          <div id="popTips"></div>
+        </section>
+      </div>
+    </div>
+
+    <script src="../js/recipes.js"></script>
+    <script>
+      RecipesPage.init({
+        jsonPath: "../data/desserter.json",
+        titleKey: "titel",
+      });
+    </script>
+  </body>
+</html>

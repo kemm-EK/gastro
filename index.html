@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Opskrifter</title>
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <script src="js/shared.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="site-nav">
+        <div class="nav-inner">
+          <a class="brand" href="../index.html">Opskrifter</a>
+
+          <!-- Desktop inline links (valgfrit men rart) -->
+          <div class="nav-links-inline">
+            <a href="./pages/hovedretter.html">Hovedretter</a>
+            <a href="./pages/dips.html">Dips/Saucer</a>
+            <a href="./pages/broed.html">Brød</a>
+            <a href="./pages/drinks.html">Drinks</a>
+            <a href="./pages/is.html">Is</a>
+            <a href="./pages/desserter.html">Desserter</a>
+            <a href="./pages/snack.html">Snacks & Tapas</a>
+          </div>
+
+          <!-- Mobil burger -->
+          <button class="nav-toggle" type="button" popovertarget="mainMenu" popovertargetaction="toggle" aria-label="Åbn menu">
+            <span class="burger" aria-hidden="true"></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Popover menu (mobil / og kan også bruges på desktop hvis du vil) -->
+      <div id="mainMenu" popover class="menu-popover">
+        <a href="./pages/hovedretter.html">Hovedretter</a>
+        <a href="./pages/dips.html">Dips/Saucer</a>
+        <a href="./pages/broed.html">Brød</a>
+        <a href="./pages/drinks.html">Drinks</a>
+        <a href="./pages/is.html">Is</a>
+        <a href="./pages/desserter.html">Desserter</a>
+        <a href="./pages/snack.html">Desserter</a>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="grid-tiles">
+        <a class="tile" href="pages/hovedretter.html">
+          <h2>Hovedretter</h2>
+          <p>Mad med substans</p>
+        </a>
+
+        <a class="tile" href="pages/dips.html">
+          <h2>Dips, dressinger, paste & saucer</h2>
+          <p>Smag, syre, umami</p>
+        </a>
+
+        <a class="tile" href="pages/broed.html">
+          <h2>Brød</h2>
+          <p>Dej, skorpe, krumme</p>
+        </a>
+
+        <a class="tile" href="pages/drinks.html">
+          <h2>Drinks</h2>
+          <p>Cocktails og bar-setup</p>
+        </a>
+
+        <a class="tile" href="pages/is.html">
+          <h2>Is</h2>
+          <p>Sorbet, gelato, soft</p>
+        </a>
+
+        <a class="tile" href="pages/desserter.html">
+          <h2>Kager, sweets & desserter</h2>
+          <p>Sødt og sprødt</p>
+        </a>
+        <a class="tile" href="pages/Snacks.html">
+          <h2>Snacks og tapas</h2>
+          <p>Lækre små godbidder</p>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer wrap">
+      <span class="muted">Lokalt opskriftsbibliotek</span>
+    </footer>
+  </body>
+</html>

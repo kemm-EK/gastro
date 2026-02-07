@@ -1,0 +1,28 @@
+[
+  {
+    "titel": "Vanilleis (klassisk creme anglaise)",
+    "kategori": "is",
+    "portioner": 6,
+    "tid": { "tilberedningMin": 40 },
+    "ingredienser": [
+      { "mængde": 5, "enhed": "dl", "ingrediens": "piskefløde" },
+      { "mængde": 2.5, "enhed": "dl", "ingrediens": "sødmælk" },
+      { "mængde": 150, "enhed": "g", "ingrediens": "sukker" },
+      { "mængde": 6, "enhed": "stk", "ingrediens": "æggeblommer" },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "vaniljestang" },
+      { "mængde": 1, "enhed": "knsp", "ingrediens": "salt", "valgfri": true }
+    ],
+    "fremgangsmåde": [
+      "Flæk vaniljestangen og skrab kornene ud. Gnid kornene med lidt af sukkeret, så de fordeles.",
+      "Varm fløde, mælk, vaniljekorn + stang og salt op til lige under kogepunktet. Sluk og lad trække 10 minutter.",
+      "Pisk æggeblommer og sukker lyst i en skål.",
+      "Hæld den varme fløde/mælk langsomt i æggeblommerne under piskning (temperering).",
+      "Hæld blandingen tilbage i gryden og varm ved lav–middel varme under konstant omrøring til den når 82–84 °C og kan dække bagsiden af en ske (må ikke koge).",
+      "Si isbasen (for at fjerne vaniljestang og evt. klumper) og køl hurtigt ned (fx i isbad).",
+      "Sæt på køl mindst 4 timer (gerne natten over) for bedre tekstur.",
+      "Kør i ismaskine til softice-konsistens. Uden ismaskine: frys i beholder og rør kraftigt hver 30–45 min de første 3 timer.",
+      "Frys 2–4 timer for fast kugle-is før servering."
+    ],
+    "billede": ""
+  }
+]

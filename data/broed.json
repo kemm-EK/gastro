@@ -1,0 +1,98 @@
+[
+  {
+    "titel": "Kernerugbrød",
+    "kategori": "rugbrød",
+    "portioner": 1,
+    "tid": { "tilberedningMin": 90 },
+    "ingredienser": [
+      { "mængde": 200, "enhed": "g", "ingrediens": "knækkede rugkerner" },
+      { "mængde": 100, "enhed": "g", "ingrediens": "solsikkekerner" },
+      { "mængde": 50, "enhed": "g", "ingrediens": "hørfrø" },
+      { "mængde": 50, "enhed": "g", "ingrediens": "græskarkerner" },
+      { "mængde": 400, "enhed": "g", "ingrediens": "rugmel" },
+      { "mængde": 6, "enhed": "dl", "ingrediens": "vand" },
+      { "mængde": 25, "enhed": "g", "ingrediens": "gær" },
+      { "mængde": 2, "enhed": "tsk", "ingrediens": "salt" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "mørk sirup" }
+    ],
+    "fremgangsmåde": [
+      "Udblød kerner og frø i halvdelen af vandet natten over.",
+      "Opløs gæren i resten af vandet.",
+      "Bland alle ingredienser til en tung, våd dej.",
+      "Hæld dejen i smurt rugbrødsform og glat overfladen.",
+      "Lad hæve 1–2 timer til små revner ses.",
+      "Bag ved 180 °C i ca. 90 minutter.",
+      "Lad brødet køle helt af før det skæres."
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Surdejsrugbrød",
+    "kategori": "rugbrød",
+    "portioner": 1,
+    "tid": { "tilberedningMin": 90 },
+    "ingredienser": [
+      { "mængde": 300, "enhed": "g", "ingrediens": "aktiv rugsurdej" },
+      { "mængde": 400, "enhed": "g", "ingrediens": "rugmel" },
+      { "mængde": 200, "enhed": "g", "ingrediens": "rugkerner" },
+      { "mængde": 5, "enhed": "dl", "ingrediens": "vand" },
+      { "mængde": 2, "enhed": "tsk", "ingrediens": "salt" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "sirup", "valgfri": true }
+    ],
+    "fremgangsmåde": [
+      "Udblød kerner i vand mindst 6 timer.",
+      "Bland alle ingredienser grundigt.",
+      "Gem lidt dej som surdej til næste bagning.",
+      "Kom dejen i form og lad hæve 6–10 timer ved stuetemperatur.",
+      "Bag ved 180 °C i ca. 90 minutter.",
+      "Afkøl helt før brødet skæres."
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Mellemøstligt fladbrød",
+    "kategori": "fladbrød",
+    "portioner": 6,
+    "tid": { "tilberedningMin": 25 },
+    "ingredienser": [
+      { "mængde": 400, "enhed": "g", "ingrediens": "hvedemel" },
+      { "mængde": 2.5, "enhed": "dl", "ingrediens": "vand" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "olivenolie" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "salt" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "sukker" },
+      { "mængde": 15, "enhed": "g", "ingrediens": "gær" }
+    ],
+    "fremgangsmåde": ["Opløs gær i lunkent vand.", "Ælt alle ingredienser til blød dej.", "Lad hæve 45 minutter.", "Del i kugler og rul flade.", "Bag på tør, meget varm pande 1–2 min per side."],
+    "billede": ""
+  },
+  {
+    "titel": "Pitabrød",
+    "kategori": "fladbrød",
+    "portioner": 8,
+    "tid": { "tilberedningMin": 20 },
+    "ingredienser": [
+      { "mængde": 500, "enhed": "g", "ingrediens": "hvedemel" },
+      { "mængde": 3, "enhed": "dl", "ingrediens": "vand" },
+      { "mængde": 25, "enhed": "g", "ingrediens": "gær" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "olivenolie" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "salt" }
+    ],
+    "fremgangsmåde": ["Ælt ingredienser til glat dej.", "Lad hæve 1 time.", "Del i kugler og rul tynde cirkler.", "Bag ved 250 °C i 5–7 minutter til de puffer op.", "Afkøl under klæde for blød skorpe."],
+    "billede": ""
+  },
+  {
+    "titel": "Italiensk flute",
+    "kategori": "hvedebrød",
+    "portioner": 2,
+    "tid": { "tilberedningMin": 30 },
+    "ingredienser": [
+      { "mængde": 500, "enhed": "g", "ingrediens": "tipo 00 eller hvedemel" },
+      { "mængde": 4, "enhed": "dl", "ingrediens": "vand" },
+      { "mængde": 10, "enhed": "g", "ingrediens": "gær" },
+      { "mængde": 1.5, "enhed": "tsk", "ingrediens": "salt" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "olivenolie" }
+    ],
+    "fremgangsmåde": ["Bland ingredienser til meget blød dej.", "Lad hæve 1½ time med foldninger undervejs.", "Del dejen forsigtigt og form aflange brød.", "Efterhæv 30 minutter.", "Bag ved 240 °C med damp i 18–22 minutter."],
+    "billede": ""
+  }
+]

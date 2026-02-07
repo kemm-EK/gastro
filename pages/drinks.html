@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cocktails</title>
+    <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <script src="../js/shared.js" defer></script>
+  </head>
+  <body>
+    <!-- <header class="site-header"> -->
+    <header class="topbar">
+      <nav class="site-nav">
+        <div class="nav-inner">
+          <a class="brand" href="../index.html">Opskrifter</a>
+
+          <!-- Desktop inline links (valgfrit men rart) -->
+          <div class="nav-links-inline">
+            <a href="../pages/hovedretter.html">Hovedretter</a>
+            <a href="../pages/dips.html">Dips/Saucer</a>
+            <a href="../pages/broed.html">Brød</a>
+            <a href="../pages/drinks.html">Drinks</a>
+            <a href="../pages/is.html">Is</a>
+            <a href="../pages/desserter.html">Desserter</a>
+            <a href="../pages/snacks.html">Snacks og Tapas</a>
+          </div>
+
+          <!-- Mobil burger -->
+          <button class="nav-toggle" type="button" popovertarget="mainMenu" popovertargetaction="toggle" aria-label="Åbn menu">
+            <span class="burger" aria-hidden="true"></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Popover menu (mobil / og kan også bruges på desktop hvis du vil) -->
+      <div id="mainMenu" popover class="menu-popover">
+        <a href="../pages/hovedretter.html">Hovedretter</a>
+        <a href="../pages/dips.html">Dips/Saucer</a>
+        <a href="../pages/broed.html">Brød</a>
+        <a href="../pages/drinks.html">Drinks</a>
+        <a href="../pages/is.html">Is</a>
+        <a href="../pages/desserter.html">Desserter</a>
+        <a href="../pages/snacks.html">Snacks og Tapas</a>
+      </div>
+
+      <h1>Cocktails</h1>
+      <p class="sub">Kompakt grid – klik på en drink for detaljer</p>
+
+      <div class="toolbar" role="region" aria-label="Filtre og visning">
+        <input id="q" class="input" type="search" placeholder="Søg titel, ingrediens, glas, garnish…" />
+        <select id="glass" class="select" aria-label="Filtrér på glastype">
+          <option value="">Alle glastyper</option>
+        </select>
+        <button id="unitToggle" class="btn secondary" type="button" aria-pressed="false" title="Skift enheder">Vis i oz</button>
+        <div class="popupbtns">
+          <!-- Top-links til popovers -->
+          <a id="openList" class="btn" href="#" role="button">Ingredienser</a>
+          <a id="openTerms" class="btn" href="#" role="button">Termer</a>
+          <a id="openTools" class="btn" href="#" role="button">Barudstyr</a>
+          <a id="openGlasses" class="btn" href="#" role="button">Glastyper</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="status" aria-live="polite" class="visually-hidden"></div>
+      <section id="cards" class="cards grid" aria-label="Cocktailkort"></section>
+    </main>
+
+    <footer class="site-footer">
+      <small>&copy; <span id="year"></span> Din Bar</small>
+    </footer>
+
+    <!-- Modal: Opskrift / cocktaildetaljer -->
+    <dialog id="recipeDialog" class="modal" aria-label="Cocktaildetaljer">
+      <button class="modal-close" data-close aria-label="Luk">✕</button>
+      <article id="modalContent" class="modal-content">
+        <!-- Fyldes dynamisk af app.js -->
+      </article>
+    </dialog>
+
+    <!-- Modal: Indkøbsliste -->
+    <dialog id="listDialog" class="modal" aria-label="Indkøbsliste">
+      <button class="modal-close" data-close aria-label="Luk">✕</button>
+      <article class="modal-content">
+        <h2>Indkøbsliste</h2>
+        <div class="list-toolbar">
+          <label>
+            Sortér:
+            <select id="listSort">
+              <option value="most">Mest nødvendige</option>
+              <option value="alpha">Alfabetisk</option>
+            </select>
+          </label>
+        </div>
+        <p class="helper">Viser hvor mange cocktails hver ingrediens bruges i (ingen mængder).</p>
+        <div id="listContainer"></div>
+      </article>
+    </dialog>
+
+    <!-- Modal: Bar-termer (ordbog) -->
+    <dialog id="termsDialog" class="modal" aria-label="Bar-termer">
+      <button class="modal-close" data-close aria-label="Luk">✕</button>
+      <article class="modal-content">
+        <h2>Bar-termer</h2>
+
+        <!-- Søgefelt til termer -->
+        <input id="termSearch" type="search" class="input" placeholder="Søg term..." />
+
+        <div id="termGrid" class="term-grid">
+          <!-- === TEKNIKKER === -->
+          <div class="term-card">
+            <h3>Shake</h3>
+            <p>Ryst ingredienser med is i en shaker for at blande og køle drinken.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Stir</h3>
+            <p>Rør ingredienser med is i et røreglas – giver klare, kolde drinks uden skum.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Build</h3>
+            <p>Hæld ingredienserne direkte i glasset, ofte over is, uden at shake.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Muddle</h3>
+            <p>Mas forsigtigt urter eller frugt i bunden af glasset for at frigive aroma og saft.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Rim</h3>
+            <p>Fugt glaskanten og dyp den i sukker, salt eller krydderier for smag og pynt.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Float</h3>
+            <p>Hæld forsigtigt en ingrediens ovenpå en anden for at danne et flydende lag.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Layer</h3>
+            <p>Byg en drink i flere farvede lag ved at hælde ingredienserne meget forsigtigt.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Dry Shake</h3>
+            <p>Ryst uden is for at skabe skum – bruges især ved æggehvide eller aquafaba.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Reverse Dry Shake</h3>
+            <p>Ryst først med is, si drinken, og ryst derefter igen uden is for tættere skum.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Rinse</h3>
+            <p>Skyl glasset med en smule spiritus (fx absint) for duft og eftersmag.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Double Strain</h3>
+            <p>Si drinken gennem både shakerens si og en finmasket si for at fjerne små isrester.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Roll</h3>
+            <p>Hæld drinken forsigtigt frem og tilbage mellem to shakerdelere – mild blanding uden at ryste.</p>
+          </div>
+
+          <!-- === MÆNGDE OG DOSERING === -->
+          <div class="term-card">
+            <h3>Dash</h3>
+            <p>Et par dråber bitters eller koncentreret smag, typisk 1–2 dråber.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Barspoon</h3>
+            <p>Ca. 5 ml – bruges til sirup, likør eller float; én barspoon = ca. ⅙ cl.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Jigger</h3>
+            <p>Målebæger med to ender (typisk 2 og 4 cl) til præcis dosering.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Top</h3>
+            <p>Fyld op med sodavand, tonic eller anden mixer til ønsket mængde.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Splash</h3>
+            <p>En lille skvæt væske, mindre end 1 cl – ofte brugt som smagstilsætning.</p>
+          </div>
+
+          <!-- === SMAG, KATEGORIER & KONCEPTER === -->
+          <div class="term-card">
+            <h3>Bitters</h3>
+            <p>Kraftig aromatisk bitter i dråber – bruges som krydderi i klassiske cocktails.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Twist</h3>
+            <p>Et stykke citrusskal vredet over drinken for at frigive olier og aroma.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Garnish</h3>
+            <p>Det sidste pynt på drinken – fx frugt, urter eller en tørret skive citrus.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Neat</h3>
+            <p>Spiritus serveret rent, uden is eller vand.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>On the Rocks</h3>
+            <p>Serveret over isterninger i et lavt glas.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Up</h3>
+            <p>Serveret uden is i et afkølet glas, typisk efter at være rystet eller rørt med is.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Mocktail</h3>
+            <p>Alkoholfri cocktail lavet med samme teknikker som klassiske drinks.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Pre-batch</h3>
+            <p>Forblanding af ingredienser i større mængder, klar til hurtig servering.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Infusion</h3>
+            <p>Spiritus tilsat frugt, urter eller krydderier i flere timer for ekstra smag.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Clarified</h3>
+            <p>En drink gjort klar og gennemsigtig ved at filtrere fx gennem mælk eller gelatine.</p>
+          </div>
+
+          <div class="term-card">
+            <h3>Batch & Stir</h3>
+            <p>Forblandet drink, der blot røres med is før servering – typisk spiritus-baserede cocktails.</p>
+          </div>
+        </div>
+      </article>
+    </dialog>
+
+    <!-- Modal: Barudstyr -->
+    <dialog id="toolsDialog" class="modal" aria-label="Barudstyr">
+      <button class="modal-close" data-close aria-label="Luk">✕</button>
+      <article class="modal-content">
+        <h2>Barudstyr</h2>
+
+        <div id="toolsGrid" class="tool-grid">
+          <div class="tool-card">
+            <img src="../img/tools/shaker.jpg" alt="Shaker" />
+            <div class="info-text">
+              <h3>Shaker</h3>
+              <p>Til at ryste cocktails med is og hurtigt køle og blande ingredienser.</p>
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <img src="../img/tools/jigger.jpg" alt="Jigger" />
+            <div class="info-text">
+              <h3>Jigger</h3>
+              <p>Målebæger, typisk 2 og 4 cl, til præcise mål.</p>
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <img src="../img/tools/strainer.jpg" alt="Strainer" />
+            <div class="info-text">
+              <h3>Strainer</h3>
+              <p>Si der holder is og frugt tilbage, når du hælder fra shaker eller røreglas.</p>
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <img src="../img/tools/finestrainer.jpg" alt="Fine strainer" />
+            <div class="info-text">
+              <h3>Fine strainer</h3>
+              <p>Finmasket si, der fanger små iskrystaller og frugtrester.</p>
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <img src="../img/tools/muddler.jpg" alt="Muddler" />
+            <div class="info-text">
+              <h3>Muddler</h3>
+              <p>Stød til at mase urter og frugt i glasset, fx til Mojito og Caipirinha.</p>
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <img src="../img/tools/barspoon.jpg" alt="Barske" />
+            <div class="info-text">
+              <h3>Bar spoon</h3>
+              <p>Lang ske til at røre drinks og måle små mængder (ca. 5 ml).</p>
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <img src="../img/tools/mixingglass.jpg" alt="Røreglas" />
+            <div class="info-text">
+              <h3>Mixing glass</h3>
+              <p>Røreglas til fx Martini og Negroni, der ikke skal shakes.</p>
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <img src="../img/tools/icetools.jpg" alt="Isudstyr" />
+            <div class="info-text">
+              <h3>Isudstyr</h3>
+              <p>Is-tang, isske og evt. forme til store isterninger eller kugler.</p>
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <img src="../img/tools/peeler.jpg" alt="Peeler" />
+            <div class="info-text">
+              <h3>Peeler</h3>
+              <p>Til at lave citrus-twists og dekorativ pynt.</p>
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <img src="../img/tools/rimmer.jpg" alt="Rimmer" />
+            <div class="info-text">
+              <h3>Rimmer</h3>
+              <p>Skål eller tallerken til sukker- og saltkant på glas.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </dialog>
+
+    <!-- Modal: Glastyper med 3 små billeder pr. glas -->
+    <dialog id="glassesDialog" class="modal" aria-label="Glastyper">
+      <button class="modal-close" data-close aria-label="Luk">✕</button>
+      <article class="modal-content">
+        <h2>Glastyper</h2>
+        <p class="helper">Eksempler på forskellige varianter af de mest brugte glas.</p>
+
+        <div id="glassGrid" class="glass-grid">
+          <div class="glass-card">
+            <img src="../img/glasses/coupe.jpg" alt="Coupe glass" />
+            <div class="info-text">
+              <h3>Coupe</h3>
+              <p>Klassisk lavt cocktailglas brugt til drinks som Daiquiri og Sidecar.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/nicknora.jpg" alt="Nick & Nora glass" />
+            <div class="info-text">
+              <h3>Nick & Nora</h3>
+              <p>Elegant glas lidt smallere end et coupeglas – perfekt til spiritus-tunge cocktails som Last Word og Manhattan.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/martini.jpg" alt="Martini glass" />
+            <div class="info-text">
+              <h3>Martini</h3>
+              <p>Det ikoniske trekantede glas – brugt til Martinis, Cosmopolitan og lignende.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/rocks.jpg" alt="Rocks glass" />
+            <div class="info-text">
+              <h3>Rocks / Old Fashioned</h3>
+              <p>Lavt glas til drinks serveret “on the rocks” som Old Fashioned og Negroni.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/highball.jpg" alt="Highball glass" />
+            <div class="info-text">
+              <h3>Highball</h3>
+              <p>Højt glas til longdrinks som Gin & Tonic og Mojito.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/collins.jpg" alt="Collins glass" />
+            <div class="info-text">
+              <h3>Collins</h3>
+              <p>Lidt smallere end et highball-glas – klassisk til Tom Collins og John Collins.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/flute.jpg" alt="Champagne flute" />
+            <div class="info-text">
+              <h3>Champagne Flute</h3>
+              <p>Smalt, højt glas, der holder boblerne længere – bruges til French 75 og skumvinsbaserede drinks.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/wine.jpg" alt="Wine glass" />
+            <div class="info-text">
+              <h3>Vinglas</h3>
+              <p>Bruges både til vin og cocktails med vin eller bobler, fx Sangria eller Aperol Spritz.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/shot.jpg" alt="Shot glass" />
+            <div class="info-text">
+              <h3>Shotglas</h3>
+              <p>Til shots eller små serveringer – bruges også som målebæger i baren.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/tiki.jpg" alt="Tiki or Hurricane glass" />
+            <div class="info-text">
+              <h3>Tiki / Hurricane</h3>
+              <p>Store, kurvede glas til tropiske cocktails som Piña Colada, Mai Tai og Zombie.</p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <img src="../img/glasses/coppermug.jpg" alt="Copper mug" />
+            <div class="info-text">
+              <h3>Copper Mug</h3>
+              <p>Det klassiske kobberkrus til Moscow Mule – holder drinken iskold og ser flot ud.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </dialog>
+
+    <script src="../js/script.js" defer></script>
+  </body>
+</html>

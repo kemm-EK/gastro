@@ -1,0 +1,273 @@
+[
+  {
+    "titel": "Chokolademousse",
+    "kategori": "desserter",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 25 },
+    "ingredienser": [
+      { "mængde": 200, "enhed": "g", "ingrediens": "mørk chokolade (60–70 % kakao)" },
+      { "mængde": 3, "enhed": "stk", "ingrediens": "æg, delt i blommer og hvider" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "sukker" },
+      { "mængde": 2.5, "enhed": "dl", "ingrediens": "piskefløde" },
+      { "mængde": 1, "enhed": "knsp", "ingrediens": "salt", "valgfri": true }
+    ],
+    "fremgangsmåde": [
+      "Hak chokoladen og smelt den forsigtigt over vandbad eller i mikroovn. Lad den køle let af.",
+      "Pisk æggeblommer og halvdelen af sukkeret lyst og let.",
+      "Rør den smeltede chokolade i æggeblandingen.",
+      "Pisk fløden til let skum — den skal være blød, ikke stiv.",
+      "Vend flødeskummet forsigtigt i chokolademassen.",
+      "Pisk æggehvider med resten af sukkeret og en knivspids salt til bløde toppe.",
+      "Vend forsigtigt æggehviderne i massen i to omgange, så luften bevares.",
+      "Fordel moussen i glas eller skål og stil på køl mindst 2 timer før servering."
+    ],
+    "tips": [
+      {
+        "titel": "Kritiske detaljer for perfekt mousse",
+        "intro": "",
+        "sektioner": [
+          {
+            "punkter": [
+              "Chokoladen må ikke være for varm, når den blandes i.",
+              "Fløden skal kun piskes let — ellers bliver moussen tung.",
+              "Æggehvider vendes i til sidst for maksimal luftighed.",
+              "Moussen sætter sig først rigtigt efter køling.",
+              "70 % kakao → intens, voksen smag.",
+              "55–60 % → rundere og mildere."
+            ]
+          }
+        ]
+      }
+    ],
+    "billede": "../img/ai_des/chocolatemousse.png"
+  },
+  {
+    "titel": "Mochi",
+    "kategori": "sweets",
+    "portioner": 6,
+    "tid": { "tilberedningMin": 35 },
+    "ingredienser": [
+      { "mængde": 150, "enhed": "g", "ingrediens": "glutinous rice flour (mochiko)" },
+      { "mængde": 120, "enhed": "g", "ingrediens": "sukker" },
+      { "mængde": 2, "enhed": "dl", "ingrediens": "vand" },
+      { "mængde": 6, "enhed": "stk", "ingrediens": "mochi-is eller sødt fyld" },
+      { "mængde": 3, "enhed": "spsk", "ingrediens": "majsstivelse", "note": "til udrulning" }
+    ],
+    "fremgangsmåde": [
+      "Bland glutinous rice flour, sukker og vand til en helt glat dej uden klumper.",
+      "Dæk skålen løst til og varm massen i mikroovn 1 minut ad gangen, rør mellem hver opvarmning, indtil massen bliver sej, elastisk og let gennemsigtig (typisk 2–3 minutter).",
+      "Alternativt kan massen dampes 15–20 minutter under låg.",
+      "Drys bordet generøst med majsstivelse og hæld den varme dej ud.",
+      "Lad dejen køle kort, så den kan håndteres, men stadig er varm og elastisk.",
+      "Del dejen i portioner og tryk dem flade.",
+      "Læg fyld i midten og saml dejen rundt om fyldet.",
+      "Vend samlingen nedad og form forsigtigt til kugler.",
+      "Opbevar køligt og server samme dag for bedste konsistens."
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Napoleonskage",
+    "kategori": "kager",
+    "portioner": 6,
+    "tid": { "tilberedningMin": 40 },
+    "ingredienser": [
+      { "mængde": 3, "enhed": "plader", "ingrediens": "butterdej" },
+      { "mængde": 4, "enhed": "dl", "ingrediens": "kagecreme" },
+      { "mængde": 2, "enhed": "dl", "ingrediens": "piskefløde" },
+      { "mængde": 150, "enhed": "g", "ingrediens": "glasur" }
+    ],
+    "fremgangsmåde": ["Bag butterdejsplader sprøde og afkøl.", "Pisk fløde og vend den i cremen.", "Læg lag af dej og creme skiftevis.", "Afslut med glasur på toppen."],
+    "billede": "../img/ai_des/napoleon.png"
+  },
+  {
+    "titel": "Bagte marcipantoppe",
+    "kategori": "sweets",
+    "portioner": 20,
+    "tid": { "tilberedningMin": 20 },
+    "ingredienser": [
+      { "mængde": 200, "enhed": "g", "ingrediens": "marcipan" },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "æggehvide" },
+      { "mængde": 100, "enhed": "g", "ingrediens": "flormelis" }
+    ],
+    "fremgangsmåde": ["Rør marcipan, æggehvide og flormelis sammen.", "Sprøjt små toppe på bagepapir.", "Bag ved 200°C til de er let gyldne."],
+    "billede": ""
+  },
+  {
+    "titel": "Linser med creme",
+    "kategori": "kager",
+    "portioner": 12,
+    "tid": { "tilberedningMin": 60 },
+    "ingredienser": [
+      { "mængde": 250, "enhed": "g", "ingrediens": "hvedemel" },
+      { "mængde": 125, "enhed": "g", "ingrediens": "smør, koldt" },
+      { "mængde": 100, "enhed": "g", "ingrediens": "sukker" },
+      { "mængde": 1, "enhed": "stk", "ingrediens": "æg" },
+      { "mængde": 3, "enhed": "dl", "ingrediens": "kagecreme" },
+      { "mængde": 150, "enhed": "g", "ingrediens": "flormelis" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "vand eller citronsaft", "note": "til glasur" }
+    ],
+    "fremgangsmåde": [
+      "Smuldr det kolde smør i melet.",
+      "Tilsæt sukker og æg og saml hurtigt dejen uden at ælte for meget.",
+      "Pak dejen ind og lad den hvile i køleskab ca. 30 minutter.",
+      "Rul dejen ud og beklæd små linse- eller muffinforme.",
+      "Prik bundene og bag ved 180°C i 12–15 minutter til de er let gyldne.",
+      "Lad bundene køle helt af og fyld dem med kagecreme.",
+      "Rør glasur af flormelis og lidt væske og smør den ovenpå som låg.",
+      "Lad glasuren sætte sig før servering."
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Skumfiduser",
+    "kategori": "sweets",
+    "portioner": 25,
+    "tid": { "tilberedningMin": 35 },
+    "ingredienser": [
+      { "mængde": 200, "enhed": "g", "ingrediens": "sukker" },
+      { "mængde": 1, "enhed": "dl", "ingrediens": "vand" },
+      { "mængde": 100, "enhed": "g", "ingrediens": "glukosesirup eller lys sirup" },
+      { "mængde": 3, "enhed": "spsk", "ingrediens": "gelatinepulver" },
+      { "mængde": 1, "enhed": "dl", "ingrediens": "koldt vand til gelatine" },
+      { "mængde": 100, "enhed": "g", "ingrediens": "flormelis" },
+      { "mængde": 50, "enhed": "g", "ingrediens": "majsstivelse" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "vaniljeekstrakt", "valgfri": true }
+    ],
+    "fremgangsmåde": [
+      "Bland gelatinepulver med koldt vand i en stor skål og lad det blomstre 5–10 minutter.",
+      "Beklæd en form med bagepapir og drys den grundigt med en blanding af flormelis og majsstivelse.",
+      "Kog sukker, vand og glukosesirup i en gryde uden at røre, til lagen når ca. 115–118°C.",
+      "Start piskning af gelatinen og hæld den varme sukkerlage i en tynd stråle ned i skålen.",
+      "Pisk 8–10 minutter til massen bliver tyk, hvid og sej og kun lunken.",
+      "Tilsæt vanilje til sidst.",
+      "Fordel massen hurtigt i formen og glat overfladen.",
+      "Drys mere sukker/stivelses-blanding over og lad massen sætte sig 4–6 timer eller natten over.",
+      "Vend massen ud, skær i stykker med olieret kniv og rul stykkerne i sukker/stivelse.",
+      "Opbevar lufttæt for at undgå fugtoptagelse."
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Flødeboller",
+    "kategori": "sweets",
+    "portioner": 12,
+    "tid": { "tilberedningMin": 60 },
+    "ingredienser": [
+      { "mængde": 12, "enhed": "stk", "ingrediens": "marcipan- eller vaffelbunde" },
+      { "mængde": 2, "enhed": "stk", "ingrediens": "æggehvider" },
+      { "mængde": 200, "enhed": "g", "ingrediens": "sukker" },
+      { "mængde": 0.75, "enhed": "dl", "ingrediens": "vand" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "glukosesirup eller lys sirup" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "vaniljeekstrakt", "valgfri": true },
+      { "mængde": 300, "enhed": "g", "ingrediens": "mørk eller lys chokolade til overtræk" }
+    ],
+    "fremgangsmåde": [
+      "Placer bundene klar på bagepapir.",
+      "Kog sukker, vand og glukosesirup til 117–120°C uden at røre.",
+      "Pisk æggehviderne let skummende.",
+      "Hæld den varme sukkerlage i en tynd stråle ned i æggehviderne under kraftig piskning.",
+      "Pisk videre 8–10 minutter til massen bliver blank, fast og kun let lun.",
+      "Vend vanilje i til sidst.",
+      "Fyld massen i en sprøjtepose og sprøjt toppe på bundene.",
+      "Lad skummet sætte sig 20–30 minutter ved stuetemperatur.",
+      "Temperér chokoladen og dyp flødebollerne, så de dækkes helt.",
+      "Lad overtrækket sætte sig ved stuetemperatur."
+    ],
+    "tips": [
+      {
+        "titel": "Temperér chokoladen (hurtig guide)",
+        "intro": "Temperering giver blank chokolade, der knækker rent og ikke bliver grå eller blød.",
+        "sektioner": [
+          {
+            "overskrift": "Metode: “seeding” (nemmest hjemme)",
+            "punkter": [
+              "Hak chokoladen fint. Smelt ca. 2/3 forsigtigt over vandbad (skålen må ikke røre vandet).",
+              "Smelt til: Mørk 45–50°C • Lys/Hvid 40–45°C.",
+              "Tag skålen af varmen. Tilsæt resten (1/3) hakket chokolade lidt ad gangen og rør konstant, til den rammer arbejdstemperatur: Mørk 31–32°C • Lys 29–30°C • Hvid 28–29°C.",
+              "Hold temperaturen: Hvis den bliver for kold/tyk, varm skålen meget kort over vandbad (5–10 sek) og rør.",
+              "Test: Smør en stribe på bagepapir. Den skal sætte sig blank og fast på 2–3 min ved stuetemp."
+            ]
+          },
+          {
+            "overskrift": "Typiske fejl",
+            "punkter": ["Mat/grå: ofte ikke tempereret eller for varm ved dypning.", "Kornet: vand/damp i chokoladen (tør redskaber, undgå damp).", "For tyk: for kold — varm meget kort og rør."]
+          }
+        ]
+      }
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Fransk nougat",
+    "kategori": "sweets",
+    "portioner": 20,
+    "tid": { "tilberedningMin": 45 },
+    "ingredienser": [
+      { "mængde": 250, "enhed": "g", "ingrediens": "honning" },
+      { "mængde": 200, "enhed": "g", "ingrediens": "sukker" },
+      { "mængde": 80, "enhed": "g", "ingrediens": "glukosesirup" },
+      { "mængde": 2, "enhed": "stk", "ingrediens": "æggehvider" },
+      { "mængde": 250, "enhed": "g", "ingrediens": "ristede mandler og/eller pistacienødder" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "vaniljeekstrakt", "valgfri": true },
+      { "mængde": 2, "enhed": "stk", "ingrediens": "oblater eller bagepapir til bund og top" }
+    ],
+    "fremgangsmåde": [
+      "Rist nødderne let i ovnen og hold dem lune.",
+      "Varm honningen langsomt op til ca. 130°C.",
+      "Kog samtidig sukker og glukosesirup med lidt vand til ca. 145°C.",
+      "Pisk æggehviderne stive i en røremaskine.",
+      "Hæld den varme honning i æggehviderne i en tynd stråle under konstant piskning.",
+      "Hæld derefter sukkerlagen i massen, stadig under piskning.",
+      "Pisk videre ved lav hastighed, til massen bliver meget sej og begynder at køle af.",
+      "Vend hurtigt de varme nødder og vanilje i massen.",
+      "Fordel nougaten i en form foret med oblat eller bagepapir.",
+      "Læg oblat eller papir ovenpå og pres massen jævnt ud.",
+      "Lad nougaten sætte sig ved stuetemperatur i mindst 6 timer eller natten over.",
+      "Skær i stykker med let olieret kniv."
+    ],
+    "billede": ""
+  },
+  {
+    "titel": "Key Lime Pie",
+    "kategori": "desserter",
+    "portioner": 8,
+    "tid": { "tilberedningMin": 30 },
+    "ingredienser": [
+      { "mængde": 200, "enhed": "g", "ingrediens": "knuste kiks" },
+      { "mængde": 100, "enhed": "g", "ingrediens": "smør" },
+      { "mængde": 1, "enhed": "ds", "ingrediens": "kondenseret mælk" },
+      { "mængde": 3, "enhed": "stk", "ingrediens": "æggeblommer" },
+      { "mængde": 1, "enhed": "dl", "ingrediens": "limesaft" }
+    ],
+    "fremgangsmåde": ["Lav bund af kiks og smør og bag kort.", "Rør fyld og hæld i bund.", "Bag kort og afkøl før servering."],
+    "billede": ""
+  },
+  {
+    "titel": "Svesketrifli",
+    "kategori": "desserter",
+    "portioner": 6,
+    "tid": { "tilberedningMin": 30 },
+    "ingredienser": [
+      { "mængde": 250, "enhed": "g", "ingrediens": "tørrede svesker uden sten" },
+      { "mængde": 1.5, "enhed": "dl", "ingrediens": "vand eller sort te" },
+      { "mængde": 4, "enhed": "spsk", "ingrediens": "mørk rom eller portvin" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "sukker", "valgfri": true },
+      { "mængde": 150, "enhed": "g", "ingrediens": "makroner eller sukkerbrød i stykker" },
+      { "mængde": 3, "enhed": "dl", "ingrediens": "kagecreme" },
+      { "mængde": 2.5, "enhed": "dl", "ingrediens": "piskefløde" },
+      { "mængde": 50, "enhed": "g", "ingrediens": "ristede mandelflager", "valgfri": true }
+    ],
+    "fremgangsmåde": [
+      "Bring svesker, vand/te og evt. sukker i kog og lad det simre 5–10 minutter, til frugten er blød.",
+      "Tag gryden af varmen og tilsæt rom eller portvin. Lad sveskerne køle helt af i lagen.",
+      "Pisk fløden til let skum og vend den forsigtigt i kagecremen.",
+      "Knus makroner eller kage groft og læg et lag i bunden af en skål eller portionsglas.",
+      "Fordel svesker med lidt af lagen over kagen.",
+      "Læg et lag creme ovenpå og gentag lagene.",
+      "Top med creme og evt. ristede mandler.",
+      "Lad trifli trække mindst 2 timer i køleskab før servering."
+    ],
+    "billede": ""
+  }
+]
