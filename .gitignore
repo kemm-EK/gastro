@@ -1,7 +1,3 @@
 .DS_Store
 assets/*.png
 assets/*.webp
-img/ai/*.*
-img/ai_main/*.*
-img/ai_des/*.*
-*.woff2
