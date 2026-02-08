@@ -184,6 +184,7 @@
       "Smag til med salt og evt. lidt sukker eller chili.",
       "Server med ris eller naan og frisk koriander."
     ],
+    "servering": ["Server med basmatiris.", "Naan eller fladbrød passer godt til.", "Top evt. med frisk koriander og lidt yoghurt."],
     "billede": "../img/ai_main/butterchicken.png"
   },
   {
@@ -218,6 +219,30 @@
       "Vend forårsløg i lige før servering.",
       "Server straks, evt. med syltet ingefær eller chiliolie."
     ],
+    "billede": ""
+  },
+  {
+    "titel": "Daal",
+    "kategori": "hovedret",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 25 },
+    "ingredienser": [
+      { "mængde": 1, "enhed": "g", "ingrediens": "x" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "y" }
+    ],
+    "fremgangsmåde": ["Lav det."],
+    "billede": ""
+  },
+  {
+    "titel": "Risotto",
+    "kategori": "hovedret",
+    "portioner": 4,
+    "tid": { "tilberedningMin": 25 },
+    "ingredienser": [
+      { "mængde": 1, "enhed": "g", "ingrediens": "x" },
+      { "mængde": 1, "enhed": "tsk", "ingrediens": "y" }
+    ],
+    "fremgangsmåde": ["Lav det."],
     "billede": ""
   }
 ]

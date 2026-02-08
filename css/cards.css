@@ -201,9 +201,94 @@
 .tip-body li {
   line-height: 1.5;
 }
+/* Layoutforbedringer */
+/* ===== Recipe popover: readability ===== */
+.recipe-popover {
+  width: min(920px, calc(100vw - 24px));
+  max-height: min(86vh, 820px);
+  overflow: auto;
+
+  padding: 18px 18px 20px;
+  border-radius: 18px;
+
+  /* hvis du bruger farve-variabler; ellers behold bare default */
+  background: var(--panel, #111);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.12));
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+.recipe-popover .popover-head {
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--border, rgba(255, 255, 255, 0.12));
+}
+
+#popTitle {
+  font-size: 1.55rem;
+  line-height: 1.15;
+  margin: 0 40px 6px 0;
+}
+
+#popDesc {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.popover-close {
+  position: sticky;
+  top: 10px;
+  float: right;
+  margin-left: 10px;
+
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.18));
+  background: rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+}
+.popover-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.recipe-popover .popover-body {
+  display: grid;
+  gap: 16px;
+}
+
+.recipe-popover section {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  border-radius: 16px;
+  padding: 14px 14px;
+}
+
+.recipe-popover h3 {
+  font-size: 1rem;
+  margin: 0 0 10px;
+  letter-spacing: 0.2px;
+}
+
+.ing-list,
+.step-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.ing-list li,
+.step-list li {
+  padding: 6px 0;
+  line-height: 1.55;
+}
+
+.step-list li + li {
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
 
 /* Desktop: 2 kolonner i popover */
-@media (min-width: 860px) {
+@media (min-width: 660px) {
   .popover-body {
     grid-template-columns: 1fr 1.2fr;
     align-items: start;

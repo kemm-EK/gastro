@@ -61,6 +61,8 @@ const RecipesPage = {
     this.popSteps = document.getElementById("popSteps");
     this.popTipsWrap = document.getElementById("popTipsWrap");
     this.popTips = document.getElementById("popTips");
+    this.popServingWrap = document.getElementById("popServingWrap");
+    this.popServing = document.getElementById("popServing");
   },
 
   openRecipe(idx) {
@@ -86,6 +88,23 @@ const RecipesPage = {
         return li;
       }),
     );
+    // serveringsforslag / tilbehør
+    const serving = Array.isArray(item.servering) ? item.servering : [];
+    if (this.popServingWrap && this.popServing) {
+      if (serving.length === 0) {
+        this.popServingWrap.style.display = "none";
+        this.popServing.replaceChildren();
+      } else {
+        this.popServingWrap.style.display = "";
+        this.popServing.replaceChildren(
+          ...serving.map((line) => {
+            const li = document.createElement("li");
+            li.textContent = line;
+            return li;
+          }),
+        );
+      }
+    }
 
     // show popover
     if (typeof this.pop.showPopover === "function") {
@@ -94,6 +113,7 @@ const RecipesPage = {
       // fallback (hvis popover API mangler)
       this.pop.style.display = "block";
     }
+
     // Tips & teknikker (fold-ud)
     const tips = Array.isArray(item.tips) ? item.tips : [];
     if (this.popTipsWrap && this.popTips) {

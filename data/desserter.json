@@ -269,5 +269,17 @@
       "Lad trifli trække mindst 2 timer i køleskab før servering."
     ],
     "billede": ""
+  },
+  {
+    "titel": "Kanelsnegle",
+    "kategori": "desserter",
+    "portioner": 20,
+    "tid": { "tilberedningMin": 60 },
+    "ingredienser": [
+      { "mængde": 1, "enhed": "g", "ingrediens": "x" },
+      { "mængde": 1, "enhed": "g", "ingrediens": "x", "valgfri": true }
+    ],
+    "fremgangsmåde": ["Lav dem."],
+    "billede": ""
   }
 ]
