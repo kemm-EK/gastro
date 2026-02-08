@@ -63,6 +63,10 @@ const RecipesPage = {
     this.popTips = document.getElementById("popTips");
     this.popServingWrap = document.getElementById("popServingWrap");
     this.popServing = document.getElementById("popServing");
+    this.popSectionsWrap = document.getElementById("popSectionsWrap");
+    this.popSections = document.getElementById("popSections");
+    this.popFlatIngredients = document.getElementById("popFlatIngredients");
+    this.popFlatSteps = document.getElementById("popFlatSteps");
   },
 
   openRecipe(idx) {
@@ -74,6 +78,38 @@ const RecipesPage = {
     const desc = item.beskrivelse || item.kort || item.note || "";
     this.popDesc.textContent = desc;
     this.popDesc.style.display = desc ? "" : "none";
+
+    // sektioner (delprojekter)
+    const sections = Array.isArray(item.sektioner) ? item.sektioner : [];
+
+    if (this.popSectionsWrap && this.popSections && sections.length) {
+      // vis sektioner
+      this.popSectionsWrap.style.display = "";
+      this.popSections.replaceChildren(...sections.map((sec, i) => renderRecipeSection(sec, i === 0)));
+
+      // skjul flad ingrediens/steps
+      if (this.popFlatIngredients) this.popFlatIngredients.style.display = "none";
+      if (this.popFlatSteps) this.popFlatSteps.style.display = "none";
+    } else {
+      // fallback: vis flad ingrediens/steps
+      if (this.popSectionsWrap) this.popSectionsWrap.style.display = "none";
+      if (this.popSections) this.popSections.replaceChildren();
+
+      if (this.popFlatIngredients) this.popFlatIngredients.style.display = "";
+      if (this.popFlatSteps) this.popFlatSteps.style.display = "";
+
+      const ings = Array.isArray(item.ingredienser) ? item.ingredienser : [];
+      this.popIngredients.replaceChildren(...ings.map(liFromIngredient));
+
+      const steps = Array.isArray(item.fremgangsmåde) ? item.fremgangsmåde : [];
+      this.popSteps.replaceChildren(
+        ...steps.map((step) => {
+          const li = document.createElement("li");
+          li.textContent = step;
+          return li;
+        }),
+      );
+    }
 
     // ingredienser: accepterer både {mængde,enhed,ingrediens} og {mængde:"400 g", ingrediens:"..."}
     const ings = Array.isArray(item.ingredienser) ? item.ingredienser : [];
@@ -223,5 +259,55 @@ function renderTipDetails(tip) {
   });
 
   details.appendChild(body);
+  return details;
+}
+function renderRecipeSection(sec, openByDefault) {
+  const details = document.createElement("details");
+  details.className = "recipe-section";
+  if (openByDefault) details.open = true;
+
+  const summary = document.createElement("summary");
+  summary.textContent = sec.titel || "Del";
+  details.appendChild(summary);
+
+  const grid = document.createElement("div");
+  grid.className = "section-grid";
+
+  // venstre: ingredienser
+  const left = document.createElement("div");
+  left.className = "section-col";
+  const hA = document.createElement("h4");
+  hA.textContent = "Ingredienser";
+  left.appendChild(hA);
+
+  const ul = document.createElement("ul");
+  ul.className = "ing-list";
+  const ings = Array.isArray(sec.ingredienser) ? sec.ingredienser : [];
+  ul.replaceChildren(...ings.map(liFromIngredient));
+  left.appendChild(ul);
+
+  // højre: fremgangsmåde
+  const right = document.createElement("div");
+  right.className = "section-col";
+  const hB = document.createElement("h4");
+  hB.textContent = "Fremgangsmåde";
+  right.appendChild(hB);
+
+  const ol = document.createElement("ol");
+  ol.className = "step-list";
+  const steps = Array.isArray(sec.fremgangsmåde) ? sec.fremgangsmåde : [];
+  ol.replaceChildren(
+    ...steps.map((step) => {
+      const li = document.createElement("li");
+      li.textContent = step;
+      return li;
+    }),
+  );
+  right.appendChild(ol);
+
+  grid.appendChild(left);
+  grid.appendChild(right);
+
+  details.appendChild(grid);
   return details;
 }

@@ -11,7 +11,7 @@
       { "mængde": 2, "enhed": "dl", "ingrediens": "neutral olie" }
     ],
     "fremgangsmåde": ["..."],
-    "billede": ""
+    "billede": "../img/ai_dips/aioli.png"
   },
   {
     "titel": "Peanut dip (til vietnamesiske forårsruller)",
@@ -28,7 +28,7 @@
       { "mængde": 2, "enhed": "spsk", "ingrediens": "varmt vand", "note": "juster konsistens" }
     ],
     "fremgangsmåde": ["Rør peanutbutter, sojasauce, lime og sukker sammen.", "Tilsæt hvidløg og chili.", "Justér konsistensen med varmt vand til en cremet dip.", "Smag til med mere syre eller salt."],
-    "billede": ""
+    "billede": "../img/ai_dips/peanutdip.png"
   },
   {
     "titel": "Soyadip (til gyoza)",
@@ -44,7 +44,7 @@
       { "mængde": 0.5, "enhed": "tsk", "ingrediens": "chiliflager eller chiliolie", "valgfri": true }
     ],
     "fremgangsmåde": ["Rør alle ingredienser sammen i en lille skål.", "Smag til med mere eddike eller sojasauce.", "Server som dip til gyoza eller dumplings."],
-    "billede": ""
+    "billede": "../img/ai_dips/soyadip.png"
   },
   {
     "titel": "Chiliolie",
@@ -60,6 +60,29 @@
       { "mængde": 1, "enhed": "fed", "ingrediens": "hvidløg", "valgfri": true }
     ],
     "fremgangsmåde": ["Varm olien langsomt op i en lille gryde.", "Tilsæt krydderier og hvidløg og varm forsigtigt uden at branke.", "Hæld varm olie over chiliflager i en varmefast skål.", "Lad olien køle af og trække smag før brug."],
-    "billede": ""
+    "billede": "../img/ai_dips/chiliolie.png"
+  },
+  {
+    "titel": "Sennep",
+    "kategori": "dressing",
+    "portioner": 1,
+    "tid": { "tilberedningMin": 15 },
+    "ingredienser": [
+      { "mængde": 4, "enhed": "spsk", "ingrediens": "sennepspulver" },
+      { "mængde": 1, "enhed": "spsk", "ingrediens": "wasabipulver" },
+      { "mængde": 2, "enhed": "spsk", "ingrediens": "sukker eller honning" },
+      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "salt" },
+      { "mængde": 3, "enhed": "spsk", "ingrediens": "eddike" },
+      { "mængde": 3, "enhed": "spsk", "ingrediens": "snaps" },
+      { "mængde": 0.5, "enhed": "dl", "ingrediens": "piskefløde" }
+    ],
+    "fremgangsmåde": [
+      "Bland tørre ingredienser i en skål.",
+      "Rør eddike og snaps i, til du får en tyk pasta.",
+      "Rør fløden i lidt ad gangen, til konsistensen passer.",
+      "Smag til med mere sukker, salt eller snaps.",
+      "Sæt på køl i mindst 12–24 timer, så smagen samler sig."
+    ],
+    "billede": "../img/ai_dips/sennep.png"
   }
 ]

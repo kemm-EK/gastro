@@ -26,6 +26,7 @@
             <a href="../pages/is.html">Is</a>
             <a href="../pages/desserter.html">Desserter</a>
             <a href="../pages/snacks.html">Snacks og Tapas</a>
+            <a href="../pages/salater.html">Salater</a>
           </div>
 
           <!-- Mobil burger -->
@@ -44,6 +45,7 @@
         <a href="../pages/is.html">Is</a>
         <a href="../pages/desserter.html">Desserter</a>
         <a href="../pages/snacks.html">Snacks og Tapas</a>
+        <a href="../pages/salater.html">Salater</a>
       </div>
     </header>
 
@@ -61,15 +63,21 @@
       </div>
 
       <div class="popover-body">
-        <section>
+        <section id="popSectionsWrap" style="display: none">
+          <h3>Opskrift (trin)</h3>
+          <div id="popSections" class="recipe-sections"></div>
+        </section>
+
+        <section id="popFlatIngredients">
           <h3>Ingredienser</h3>
           <ul id="popIngredients" class="ing-list"></ul>
         </section>
 
-        <section>
+        <section id="popFlatSteps">
           <h3>Fremgangsmåde</h3>
           <ol id="popSteps" class="step-list"></ol>
         </section>
+
         <section id="popServingWrap" style="display: none">
           <h3>Serveringsforslag</h3>
           <ul id="popServing"></ul>
