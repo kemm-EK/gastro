@@ -1,188 +1,292 @@
 [
   {
     "titel": "Samosa (kartoffel/ærter)",
-    "beskrivelse": "Sprøde, krydrede samosaer med kartoffel- og ærtefyld. Kan frituresteges eller bages.",
+    "kategori": "",
     "portioner": 12,
     "tid": { "forberedelseMin": 45, "tilberedningMin": 20 },
-    "tags": ["indisk", "snack", "vegetar", "krydret"],
-    "ingredienser": [
-      { "mængde": 250, "enhed": "g", "ingrediens": "hvedemel" },
-      { "mængde": 60, "enhed": "ml", "ingrediens": "neutral olie" },
-      { "mængde": 0.75, "enhed": "tsk", "ingrediens": "salt" },
-      { "mængde": 120, "enhed": "ml", "ingrediens": "vand (ca.)" },
-
-      { "mængde": 500, "enhed": "g", "ingrediens": "kartofler" },
-      { "mængde": 150, "enhed": "g", "ingrediens": "frosne ærter" },
-      { "mængde": 1, "enhed": "stk", "ingrediens": "løg, finthakket" },
-      { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
-      { "mængde": 15, "enhed": "g", "ingrediens": "ingefær, finthakket" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "spidskommenfrø" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "koriander (stødt)" },
-      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "garam masala" },
-      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "gurkemeje" },
-      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "chili (pulver eller flager)" },
-      { "mængde": 2, "enhed": "spsk", "ingrediens": "citron- eller limesaft" },
-      { "mængde": 2, "enhed": "spsk", "ingrediens": "frisk koriander, hakket" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "neutral olie til stegning" }
+    "beskrivelse": "Sprøde, krydrede samosaer med kartoffel- og ærtefyld. Kan frituresteges eller bages.",
+    "sektioner": [
+      {
+        "titel": "Dej",
+        "ingredienser": [
+          { "mængde": 250, "enhed": "g", "ingrediens": "hvedemel" },
+          { "mængde": 60, "enhed": "ml", "ingrediens": "neutral olie" },
+          { "mængde": 0.75, "enhed": "tsk", "ingrediens": "salt" },
+          { "mængde": 120, "enhed": "ml", "ingrediens": "vand (ca.)" }
+        ],
+        "fremgangsmåde": ["Rør mel og salt sammen.", "Gnid olien ind i melet, til det ligner sand.", "Tilsæt vand lidt ad gangen og ælt til en fast dej.", "Dæk dejen til og lad den hvile 20–30 min."]
+      },
+      {
+        "titel": "Fyld",
+        "ingredienser": [
+          { "mængde": 500, "enhed": "g", "ingrediens": "kartofler" },
+          { "mængde": 150, "enhed": "g", "ingrediens": "frosne ærter" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "løg, finthakket" },
+          { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
+          { "mængde": 15, "enhed": "g", "ingrediens": "ingefær, finthakket" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "spidskommenfrø" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "koriander (stødt)" },
+          { "mængde": 0.5, "enhed": "tsk", "ingrediens": "garam masala" },
+          { "mængde": 0.5, "enhed": "tsk", "ingrediens": "gurkemeje" },
+          { "mængde": 0.5, "enhed": "tsk", "ingrediens": "chili (pulver eller flager)" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "citron- eller limesaft" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "frisk koriander, hakket" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "neutral olie til stegning" }
+        ],
+        "fremgangsmåde": [
+          "Kog kartofler møre, afkøl og mos dem groft.",
+          "Svits spidskommenfrø i lidt olie og tilsæt løg. Steg til løgene er bløde.",
+          "Tilsæt hvidløg og ingefær og steg i ca. 1 minut.",
+          "Tilsæt koriander, garam masala, gurkemeje og chili.",
+          "Vend kartofler og ærter i og varm fyldet igennem.",
+          "Smag til med salt, citrus og frisk koriander.",
+          "Lad fyldet køle helt af før samling."
+        ]
+      },
+      {
+        "titel": "Samling",
+        "ingredienser": [],
+        "fremgangsmåde": ["Del dejen i 6 kugler.", "Rul hver kugle til en oval og skær den over i to.", "Form en kegle af hver halvdel og lim kanten med lidt vand/mel-pasta.", "Fyld med 1–2 spsk fyld og luk samosaen tæt."]
+      },
+      {
+        "titel": "Stegning/bagning",
+        "ingredienser": [],
+        "fremgangsmåde": ["Frituresteg samosaerne ved 160–170°C til gyldne i 8–10 min.", "Alternativt kan de bages ved 200°C i ca. 18–22 min efter de er penslet med olie."]
+      }
     ],
-    "fremgangsmåde": [
-      "Dej: Rør mel og salt sammen. Gnid olien ind i melet (det skal ligne sand). Tilsæt vand lidt ad gangen og ælt til en fast dej. Dæk til og lad hvile 20–30 min.",
-      "Fyld: Kog kartofler møre, afkøl og mos groft. Svits spidskommenfrø i lidt olie, tilsæt løg og svits til blødt. Tilsæt hvidløg og ingefær 1 min.",
-      "Tilsæt krydderier (koriander, garam masala, gurkemeje, chili), vend kartofler og ærter i og varm igennem. Smag til med salt, citrus og frisk koriander. Køl fyldet ned.",
-      "Form: Del dejen i 6 kugler. Rul hver til en oval og skær over. Form en kegle af hver halvdel, lim kanten med lidt vand/mel-pasta, fyld med 1–2 spsk fyld og luk igen.",
-      "Tilberedning: Friture 160–170°C til gyldne (8–10 min) eller bag 200°C ca. 18–22 min (pensl med olie). Server varme med chutney."
-    ],
+    "servering": ["Server varme med chutney."],
     "billede": "../img/ai_main/samosa.png"
   },
   {
     "titel": "Chicken Tikka Masala",
-    "beskrivelse": "Kylling i krydret yoghurtmarinade med cremet tomat-karry sauce. Server med ris eller naan.",
+    "kategori": "",
     "portioner": 4,
     "tid": { "forberedelseMin": 20, "tilberedningMin": 40, "marineringMin": 60 },
-    "tags": ["indisk", "kylling", "cremet", "klassiker"],
-    "ingredienser": [
-      { "mængde": 600, "enhed": "g", "ingrediens": "kyllingebryst eller -lår i tern" },
-      { "mængde": 200, "enhed": "g", "ingrediens": "græsk yoghurt" },
-      { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
-      { "mængde": 20, "enhed": "g", "ingrediens": "ingefær, finthakket" },
-      { "mængde": 2, "enhed": "spsk", "ingrediens": "citronsaft" },
-      { "mængde": 2, "enhed": "tsk", "ingrediens": "garam masala" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "spidskommen (stødt)" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "koriander (stødt)" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "paprika" },
-      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "chilipulver (valgfrit)" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "salt" },
-
-      { "mængde": 1, "enhed": "stk", "ingrediens": "løg, finthakket" },
-      { "mængde": 2, "enhed": "spsk", "ingrediens": "smør eller ghee" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "neutral olie" },
-      { "mængde": 2, "enhed": "spsk", "ingrediens": "tomatpuré" },
-      { "mængde": 400, "enhed": "g", "ingrediens": "flåede tomater (dåse)" },
-      { "mængde": 150, "enhed": "ml", "ingrediens": "fløde (eller kokosmælk)" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "sukker eller honning (smag til)" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "garam masala (til saucen)" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "frisk koriander, hakket" }
+    "beskrivelse": "Kylling i krydret yoghurtmarinade med cremet tomat-karry sauce. Server med ris eller naan.",
+    "sektioner": [
+      {
+        "titel": "Marinade",
+        "ingredienser": [
+          { "mængde": 600, "enhed": "g", "ingrediens": "kyllingebryst eller -lår i tern" },
+          { "mængde": 200, "enhed": "g", "ingrediens": "græsk yoghurt" },
+          { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
+          { "mængde": 20, "enhed": "g", "ingrediens": "ingefær, finthakket" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "citronsaft" },
+          { "mængde": 2, "enhed": "tsk", "ingrediens": "garam masala" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "spidskommen (stødt)" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "koriander (stødt)" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "paprika" },
+          { "mængde": 0.5, "enhed": "tsk", "ingrediens": "chilipulver (valgfrit)" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "salt" }
+        ],
+        "fremgangsmåde": ["Rør yoghurt, hvidløg, ingefær, citronsaft og krydderier sammen.", "Vend kyllingen i marinaden.", "Lad kødet marinere i 1–12 timer."]
+      },
+      {
+        "titel": "Stegning af kylling",
+        "ingredienser": [],
+        "fremgangsmåde": ["Steg kyllingen hårdt på pande i lidt olie eller tilbered den på grill eller i ovn, til den får farve.", "Kyllingen behøver ikke være gennemstegt endnu.", "Læg kyllingen til side."]
+      },
+      {
+        "titel": "Sauce",
+        "ingredienser": [
+          { "mængde": 1, "enhed": "stk", "ingrediens": "løg, finthakket" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "smør eller ghee" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "neutral olie" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "tomatpuré" },
+          { "mængde": 400, "enhed": "g", "ingrediens": "flåede tomater (dåse)" },
+          { "mængde": 150, "enhed": "ml", "ingrediens": "fløde (eller kokosmælk)" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "sukker eller honning (smag til)" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "garam masala (til saucen)" }
+        ],
+        "fremgangsmåde": [
+          "Svits løg i smør/ghee og olie til bløde og let gyldne.",
+          "Tilsæt tomatpuré og steg i 1–2 min.",
+          "Tilsæt flåede tomater, sukker og garam masala og lad saucen simre 10–15 min.",
+          "Blend eventuelt saucen glat for en mere cremet konsistens.",
+          "Tilsæt fløde og den stegte kylling.",
+          "Lad retten simre 8–12 min, til kyllingen er gennemtilberedt og saucen cremet.",
+          "Smag til med salt og evt. mere chili."
+        ]
+      },
+      {
+        "titel": "Garnish",
+        "ingredienser": [{ "mængde": 1, "enhed": "spsk", "ingrediens": "frisk koriander, hakket" }],
+        "fremgangsmåde": ["Drys frisk koriander over retten før servering."]
+      }
     ],
-    "fremgangsmåde": [
-      "Marinade: Rør yoghurt, hvidløg, ingefær, citronsaft og krydderier sammen. Vend kylling i og mariner 1–12 timer.",
-      "Steg/grill kylling: Steg hårdt på pande i lidt olie (eller grill/ovn) til den får farve. Den behøver ikke være gennemstegt endnu. Læg til side.",
-      "Saucen: Svits løg i smør/ghee + olie til blødt og let gyldent. Tilsæt tomatpuré og steg 1–2 min.",
-      "Tilsæt flåede tomater, sukker og garam masala. Lad simre 10–15 min. Blend evt. saucen glat for mere restaurant-feel.",
-      "Tilsæt fløde og kylling. Simr 8–12 min til kyllingen er gennemtilberedt og saucen cremet. Smag til med salt og evt. mere chili.",
-      "Server med ris/naan og drys frisk koriander over."
-    ],
-    "billede": ""
+    "servering": ["Server med ris eller naan."],
+    "billede": "../img/ai_main/tikkimasala.png"
   },
   {
     "titel": "Grønkålssuppe (cremet)",
-    "beskrivelse": "Varm, fyldig suppe med grønkål, kartoffel og porre. Kan toppes med sprød bacon eller croutoner.",
+    "kategori": "",
     "portioner": 4,
     "tid": { "forberedelseMin": 15, "tilberedningMin": 30 },
-    "tags": ["suppe", "vinter", "vegetar (uden bacon)", "nem"],
-    "ingredienser": [
-      { "mængde": 1, "enhed": "stk", "ingrediens": "porre, i skiver" },
-      { "mængde": 1, "enhed": "stk", "ingrediens": "løg, hakket" },
-      { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
-      { "mængde": 500, "enhed": "g", "ingrediens": "kartofler, i tern" },
-      { "mængde": 200, "enhed": "g", "ingrediens": "grønkål (ribbet), groft hakket" },
-      { "mængde": 900, "enhed": "ml", "ingrediens": "grøntsagsbouillon" },
-      { "mængde": 150, "enhed": "ml", "ingrediens": "fløde (eller madlavningsfløde)" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "smør eller olie" },
-      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "muskatnød (valgfrit)" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "citronsaft" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "salt (smag til)" },
-      { "mængde": 1, "enhed": "knsp", "ingrediens": "peber" }
+    "beskrivelse": "Varm, fyldig suppe med grønkål, kartoffel og porre. Kan toppes med sprød bacon eller croutoner.",
+    "sektioner": [
+      {
+        "titel": "Suppe",
+        "ingredienser": [
+          { "mængde": 1, "enhed": "stk", "ingrediens": "porre, i skiver" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "løg, hakket" },
+          { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
+          { "mængde": 500, "enhed": "g", "ingrediens": "kartofler, i tern" },
+          { "mængde": 200, "enhed": "g", "ingrediens": "grønkål (ribbet), groft hakket" },
+          { "mængde": 900, "enhed": "ml", "ingrediens": "grøntsagsbouillon" },
+          { "mængde": 150, "enhed": "ml", "ingrediens": "fløde (eller madlavningsfløde)" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "smør eller olie" },
+          { "mængde": 0.5, "enhed": "tsk", "ingrediens": "muskatnød (valgfrit)" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "citronsaft" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "salt (smag til)" },
+          { "mængde": 1, "enhed": "knsp", "ingrediens": "peber" }
+        ],
+        "fremgangsmåde": [
+          "Svits løg og porre i smør eller olie i 5–7 min til bløde.",
+          "Tilsæt hvidløg og svits i ca. 1 min.",
+          "Tilsæt kartofler og bouillon og kog i 12–15 min til kartoflerne er møre.",
+          "Tilsæt grønkål og kog yderligere 5–7 min til kålen er mør.",
+          "Blend suppen glat eller delvist for mere struktur.",
+          "Rør fløde i og varm suppen op uden at lade den koge hårdt.",
+          "Smag til med salt, peber, citronsaft og evt. muskat."
+        ]
+      }
     ],
-    "fremgangsmåde": [
-      "Svits løg og porre i smør/olie 5–7 min til bløde. Tilsæt hvidløg 1 min.",
-      "Tilsæt kartofler og bouillon. Kog 12–15 min til kartoflerne er møre.",
-      "Tilsæt grønkål og kog yderligere 5–7 min til mør.",
-      "Blend suppen glat (eller delvist for struktur). Rør fløde i og varm op uden at koge hårdt.",
-      "Smag til med salt, peber, citron og evt. muskat. Server med brød og valgfri topping."
-    ],
-    "billede": ""
+    "servering": ["Server med brød og valgfri topping som sprød bacon eller croutoner."],
+    "billede": "../img/ai_main/groentkaalssuppe.png"
   },
   {
     "titel": "Ramensuppe (hurtig, hjemmelavet)",
-    "beskrivelse": "Hurtig ramen med aromatisk bouillon, nudler og toppings. Kan laves med kylling, svinekød eller tofu.",
+    "kategori": "",
     "portioner": 2,
     "tid": { "forberedelseMin": 15, "tilberedningMin": 20 },
-    "tags": ["suppe", "japansk-inspireret", "nudler", "hurtig"],
-    "ingredienser": [
-      { "mængde": 900, "enhed": "ml", "ingrediens": "kyllinge- eller grøntsagsbouillon" },
-      { "mængde": 2, "enhed": "spsk", "ingrediens": "soya" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "miso (valgfrit, giver dybde)" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "sesamolie" },
-      { "mængde": 15, "enhed": "g", "ingrediens": "ingefær, i skiver" },
-      { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, knust" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "riseddike eller lime (smag til)" },
-
-      { "mængde": 2, "enhed": "pakker", "ingrediens": "ramen-/hvedenudler" },
-      { "mængde": 2, "enhed": "stk", "ingrediens": "æg (valgfrit)" },
-      { "mængde": 150, "enhed": "g", "ingrediens": "svampe (fx shiitake eller champignon)" },
-      { "mængde": 2, "enhed": "stk", "ingrediens": "forårsløg, i skiver" },
-      { "mængde": 100, "enhed": "g", "ingrediens": "spinat eller pak choi" },
-
-      { "mængde": 200, "enhed": "g", "ingrediens": "kylling, pulled pork eller tofu (valgfrit)" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "chiliolie eller sriracha (valgfrit)" },
-      { "mængde": 1, "enhed": "stk", "ingrediens": "nori (valgfrit)" }
+    "beskrivelse": "Hurtig ramen med aromatisk bouillon, nudler og toppings. Kan laves med kylling, svinekød eller tofu.",
+    "sektioner": [
+      {
+        "titel": "Bouillon",
+        "ingredienser": [
+          { "mængde": 900, "enhed": "ml", "ingrediens": "kyllinge- eller grøntsagsbouillon" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "soya" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "miso" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "sesamolie" },
+          { "mængde": 15, "enhed": "g", "ingrediens": "ingefær, revet" },
+          { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, knust" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "riseddike eller lime (smag til)" }
+        ],
+        "fremgangsmåde": [
+          "Varm bouillon op med ingefær og hvidløg i 8–10 min.",
+          "Tag eventuelt ingefær og hvidløg op igen.",
+          "Rør soya og sesamolie i bouillonen.",
+          "Hvis miso bruges, røres det ud i en skål med lidt varm bouillon og hældes derefter tilbage i gryden.",
+          "Smag til med riseddike eller lime."
+        ]
+      },
+      {
+        "titel": "Nudler",
+        "ingredienser": [{ "mængde": 2, "enhed": "pakker", "ingrediens": "ramen-/hvedenudler" }],
+        "fremgangsmåde": ["Kog nudler efter anvisningen på pakken, enten i separat gryde eller direkte i bouillonen.", "Afdryp hvis de koges separat."]
+      },
+      {
+        "titel": "Marinerede ramen æg",
+        "ingredienser": [
+          { "mængde": 2, "enhed": "stk", "ingrediens": "æg" },
+          { "mængde": 60, "enhed": "ml", "ingrediens": "sojasauce" },
+          { "mængde": 2, "enhed": "tsk", "ingrediens": "sesamolie" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "sake" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "mirin" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "sukker" },
+          { "mængde": 1, "enhed": "dl", "ingrediens": "vand (for at dække æggene)" }
+        ],
+        "fremgangsmåde": [
+          "Bring en gryde med vand i kog og sænk æggene forsigtigt i vandet.",
+          "Kog æggene i 6½–7 min for blød blomme.",
+          "Køl æggene hurtigt ned i koldt vand og pil dem forsigtigt.",
+          "Bland ingredienserne i en beholder eller pose.",
+          "Læg de pillede æg i marinaden, så de er dækket mest muligt.",
+          "Lad æggene marinere i køleskab mindst 4 timer, gerne natten over.",
+          "Halver æggene lige før servering."
+        ]
+      },
+      {
+        "titel": "Topping",
+        "ingredienser": [
+          { "mængde": 150, "enhed": "g", "ingrediens": "svampe (fx shiitake eller champignon)" },
+          { "mængde": 2, "enhed": "stk", "ingrediens": "forårsløg, i skiver" },
+          { "mængde": 100, "enhed": "g", "ingrediens": "spinat eller pak choi" },
+          { "mængde": 200, "enhed": "g", "ingrediens": "kylling, pulled pork eller tofu (valgfrit)" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "chiliolie eller sriracha (valgfrit)" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "nori (valgfrit)" }
+        ],
+        "fremgangsmåde": ["Steg svampe kort på pande eller kom dem direkte i suppen og lad dem koge 2–3 min.", "Varm eventuelt valgt protein igennem hvis nødvendigt.", "Klargør forårsløg, grønt og øvrige toppings."]
+      },
+      {
+        "titel": "Samling",
+        "ingredienser": [],
+        "fremgangsmåde": ["Fordel nudler i skåle.", "Hæld varm bouillon over.", "Top med grønt, protein, marinerede ramen æg og øvrige toppings.", "Afslut eventuelt med chiliolie og nori."]
+      }
     ],
-    "fremgangsmåde": [
-      "Bouillon: Varm bouillon op med ingefær og hvidløg 8–10 min. Tag hvidløg/ingefær op (valgfrit).",
-      "Rør soya og sesamolie i. Hvis du bruger miso, rør det ud i en lille skål med varm bouillon og hæld tilbage (så miso ikke klumper). Smag til med riseddike/lime.",
-      "Toppings: Steg svampe kort på pande (valgfrit) eller kom dem direkte i suppen 2–3 min.",
-      "Kog nudler efter pakken (enten i separat gryde eller direkte i bouillonen – separat giver klarere suppe).",
-      "Hvis du vil have æg: kog 6½–7 min, køl hurtigt ned, pil og halver.",
-      "Anret: Nudler i skål, hæld varm bouillon over, top med grønt, protein, æg, forårsløg og evt. chiliolie/nori."
-    ],
-    "billede": ""
+    "servering": [],
+    "billede": "../img/ai_main/ramen.png"
   },
+
   {
     "titel": "Butter Chicken (autentisk indisk stil)",
     "kategori": "hovedret",
     "portioner": 4,
     "tid": { "tilberedningMin": 60 },
-    "ingredienser": [
-      { "mængde": 700, "enhed": "g", "ingrediens": "kyllingelår- eller brystfilet i store tern" },
-
-      { "mængde": 2, "enhed": "dl", "ingrediens": "yoghurt naturel" },
-      { "mængde": 2, "enhed": "spsk", "ingrediens": "citronsaft" },
-      { "mængde": 2, "enhed": "tsk", "ingrediens": "garam masala" },
-      { "mængde": 2, "enhed": "tsk", "ingrediens": "paprika" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "stødt spidskommen" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "stødt koriander" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "gurkemeje" },
-      { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "revet frisk ingefær" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "salt" },
-
-      { "mængde": 2, "enhed": "spsk", "ingrediens": "smør" },
-      { "mængde": 1, "enhed": "stk", "ingrediens": "løg, finthakket" },
-      { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "revet frisk ingefær" },
-      { "mængde": 2, "enhed": "tsk", "ingrediens": "garam masala" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "stødt spidskommen" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "chilipulver", "valgfri": true },
-      { "mængde": 400, "enhed": "g", "ingrediens": "hakkede tomater" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "tomatpuré" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "sukker eller honning" },
-      { "mængde": 2, "enhed": "dl", "ingrediens": "piskefløde" },
-      { "mængde": 30, "enhed": "g", "ingrediens": "smør (til sidst)" },
-      { "mængde": 1, "enhed": "håndfuld", "ingrediens": "frisk koriander", "valgfri": true }
-    ],
-    "fremgangsmåde": [
-      "Bland yoghurt, citronsaft, krydderier, hvidløg, ingefær og salt til marinade.",
-      "Vend kyllingen i marinaden og lad trække mindst 2 timer, gerne natten over.",
-      "Steg eller grill kyllingen hårdt på pande eller i ovn ved høj varme, så den får let stegeskorpe. Den behøver ikke være helt færdig endnu.",
-      "Smelt smør i en gryde og steg løg bløde uden at brune.",
-      "Tilsæt hvidløg, ingefær og krydderier og steg kort, til det dufter.",
-      "Tilsæt tomater, tomatpuré og sukker og lad saucen simre 10–15 minutter.",
-      "Blend evt. saucen glat for autentisk, cremet konsistens.",
-      "Tilsæt fløde og lad saucen simre roligt.",
-      "Kom kyllingen i saucen og lad retten simre 10 minutter, til kyllingen er mør.",
-      "Rør ekstra smør i til sidst for klassisk rund smag.",
-      "Smag til med salt og evt. lidt sukker eller chili.",
-      "Server med ris eller naan og frisk koriander."
+    "beskrivelse": "Kylling i krydret tomat-flødesauce. Marinade + sauce bygges separat.",
+    "sektioner": [
+      {
+        "titel": "Marinade",
+        "ingredienser": [
+          { "mængde": 700, "enhed": "g", "ingrediens": "kyllingelår- eller brystfilet i store tern" },
+          { "mængde": 2, "enhed": "dl", "ingrediens": "yoghurt naturel" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "citronsaft" },
+          { "mængde": 2, "enhed": "tsk", "ingrediens": "garam masala" },
+          { "mængde": 2, "enhed": "tsk", "ingrediens": "paprika" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "stødt spidskommen" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "stødt koriander" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "gurkemeje" },
+          { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "revet frisk ingefær" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "salt" }
+        ],
+        "fremgangsmåde": ["Bland yoghurt, citronsaft, krydderier, hvidløg, ingefær og salt til marinade.", "Vend kyllingen i marinaden og lad trække mindst 2 timer (gerne natten over)."]
+      },
+      {
+        "titel": "Sauce",
+        "ingredienser": [
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "smør" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "løg, finthakket" },
+          { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "revet frisk ingefær" },
+          { "mængde": 2, "enhed": "tsk", "ingrediens": "garam masala" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "stødt spidskommen" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "chilipulver", "valgfri": true },
+          { "mængde": 400, "enhed": "g", "ingrediens": "hakkede tomater" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "tomatpuré" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "sukker eller honning" },
+          { "mængde": 2, "enhed": "dl", "ingrediens": "piskefløde" }
+        ],
+        "fremgangsmåde": [
+          "Smelt smør i en gryde og steg løg bløde uden at brune.",
+          "Tilsæt hvidløg, ingefær og krydderier og steg 30–60 sek til det dufter.",
+          "Tilsæt tomater, tomatpuré og sukker og lad simre 10–15 min.",
+          "Blend evt. saucen glat og rør fløden i. Hold saucen ved lav simre."
+        ]
+      },
+      {
+        "titel": "Stegning + samling",
+        "ingredienser": [
+          { "mængde": 30, "enhed": "g", "ingrediens": "smør (til sidst)" },
+          { "mængde": 1, "enhed": "håndfuld", "ingrediens": "frisk koriander", "valgfri": true }
+        ],
+        "fremgangsmåde": [
+          "Steg/grill den marinerede kylling hårdt, så den får farve (den må gerne mangle lidt i midten).",
+          "Kom kyllingen i saucen og lad simre ca. 10 min til den er mør og gennemtilberedt.",
+          "Rør smør i til sidst for rund smag. Smag til med salt/sukker/chili.",
+          "Server med ris eller naan og frisk koriander."
+        ]
+      }
     ],
     "servering": ["Server med basmatiris.", "Naan eller fladbrød passer godt til.", "Top evt. med frisk koriander og lidt yoghurt."],
     "billede": "../img/ai_main/butterchicken.png"
@@ -192,57 +296,229 @@
     "kategori": "hovedret",
     "portioner": 4,
     "tid": { "tilberedningMin": 25 },
-    "ingredienser": [
-      { "mængde": 400, "enhed": "g", "ingrediens": "forkogte hvedenudler (yakisoba eller ramen)" },
-      { "mængde": 300, "enhed": "g", "ingrediens": "kylling, svinekød eller tofu i tynde skiver" },
-      { "mængde": 2, "enhed": "spsk", "ingrediens": "neutral olie til stegning" },
-      { "mængde": 1, "enhed": "stk", "ingrediens": "løg i tynde skiver" },
-      { "mængde": 2, "enhed": "stk", "ingrediens": "gulerødder i tynde strimler" },
-      { "mængde": 150, "enhed": "g", "ingrediens": "spidskål eller hvidkål i strimler" },
-      { "mængde": 2, "enhed": "stk", "ingrediens": "forårsløg i skiver" },
-
-      { "mængde": 3, "enhed": "spsk", "ingrediens": "Worcestershire sauce eller yakisoba-sauce" },
-      { "mængde": 1.5, "enhed": "spsk", "ingrediens": "sojasauce" },
-      { "mængde": 1, "enhed": "spsk", "ingrediens": "østerssauce", "valgfri": true },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "sukker" },
-      { "mængde": 0.5, "enhed": "tsk", "ingrediens": "sort peber" }
+    "beskrivelse": "",
+    "sektioner": [
+      {
+        "titel": "Sauce",
+        "ingredienser": [
+          { "mængde": 3, "enhed": "spsk", "ingrediens": "Worcestershire sauce eller yakisoba-sauce" },
+          { "mængde": 1.5, "enhed": "spsk", "ingrediens": "sojasauce" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "østerssauce", "valgfri": true },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "sukker" },
+          { "mængde": 0.5, "enhed": "tsk", "ingrediens": "sort peber" }
+        ],
+        "fremgangsmåde": ["Bland ingredienserne til saucen i en lille skål."]
+      },
+      {
+        "titel": "Stegning",
+        "ingredienser": [
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "neutral olie til stegning" },
+          { "mængde": 300, "enhed": "g", "ingrediens": "kylling, svinekød eller tofu i tynde skiver" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "løg i tynde skiver" },
+          { "mængde": 2, "enhed": "stk", "ingrediens": "gulerødder i tynde strimler" },
+          { "mængde": 150, "enhed": "g", "ingrediens": "spidskål eller hvidkål i strimler" },
+          { "mængde": 400, "enhed": "g", "ingrediens": "forkogte hvedenudler (yakisoba eller ramen)" },
+          { "mængde": 2, "enhed": "stk", "ingrediens": "forårsløg i skiver" }
+        ],
+        "fremgangsmåde": [
+          "Varm en stor pande eller wok meget godt op.",
+          "Steg kød eller tofu hurtigt i olie, til det netop er gennemstegt, og tag det evt. op.",
+          "Steg løg og gulerødder 1–2 minutter ved høj varme.",
+          "Tilsæt kål og steg kort, så grøntsagerne stadig har bid.",
+          "Kom nudlerne på panden og løs dem forsigtigt op.",
+          "Kom kødet tilbage på panden og hæld saucen over.",
+          "Steg det hele ved høj varme under omrøring, til nudlerne begynder at få let stegeskorpe.",
+          "Vend forårsløg i lige før servering."
+        ]
+      }
     ],
-    "fremgangsmåde": [
-      "Bland ingredienserne til saucen i en lille skål.",
-      "Varm en stor pande eller wok meget godt op.",
-      "Steg kød eller tofu hurtigt i olie, til det netop er gennemstegt. Tag det evt. op.",
-      "Steg løg og gulerødder 1–2 minutter ved høj varme.",
-      "Tilsæt kål og steg kort, så grøntsagerne stadig har bid.",
-      "Kom nudlerne på panden og løs dem forsigtigt op.",
-      "Tilsæt kød igen og hæld saucen over.",
-      "Steg det hele ved høj varme under omrøring, til nudlerne begynder at få let stegeskorpe.",
-      "Vend forårsløg i lige før servering.",
-      "Server straks, evt. med syltet ingefær eller chiliolie."
-    ],
-    "billede": ""
+    "servering": ["Server straks, evt. med syltet ingefær eller chiliolie."],
+    "billede": "../img/ai_main/stegtenudler.png"
   },
   {
-    "titel": "Daal",
+    "titel": "Autentisk Daal (linsegryde)",
     "kategori": "hovedret",
     "portioner": 4,
-    "tid": { "tilberedningMin": 25 },
-    "ingredienser": [
-      { "mængde": 1, "enhed": "g", "ingrediens": "x" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "y" }
+    "tid": { "forberedelseMin": 10, "tilberedningMin": 35 },
+    "beskrivelse": "Klassisk indisk daal med røde linser, aromatiske krydderier og tadka af løg, hvidløg og spidskommen. Serveres typisk med ris eller fladbrød.",
+    "sektioner": [
+      {
+        "titel": "Daal",
+        "ingredienser": [
+          { "mængde": 250, "enhed": "g", "ingrediens": "røde linser" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "løg, hakket" },
+          { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
+          { "mængde": 15, "enhed": "g", "ingrediens": "ingefær, finthakket" },
+          { "mængde": 400, "enhed": "g", "ingrediens": "hakkede tomater (dåse)" },
+          { "mængde": 800, "enhed": "ml", "ingrediens": "vand eller grøntsagsbouillon" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "gurkemeje" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "koriander (stødt)" },
+          { "mængde": 0.5, "enhed": "tsk", "ingrediens": "chilipulver eller frisk chili (smag til)" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "salt (smag til)" },
+          { "mængde": 1, "enhed": "spsk", "ingrediens": "neutral olie eller ghee" }
+        ],
+        "fremgangsmåde": [
+          "Skyl linserne grundigt i koldt vand.",
+          "Varm olie eller ghee i en gryde og svits løg til de er bløde.",
+          "Tilsæt hvidløg og ingefær og steg kort til det dufter.",
+          "Tilsæt gurkemeje, koriander og chili og rør rundt i ca. 30 sekunder.",
+          "Kom linser, tomater og vand eller bouillon i gryden.",
+          "Lad retten simre 20–25 min, til linserne er helt møre og begynder at koge ud.",
+          "Rør jævnligt og tilsæt lidt vand hvis konsistensen bliver for tyk.",
+          "Smag til med salt."
+        ]
+      },
+      {
+        "titel": "Tadka (krydderolie)",
+        "ingredienser": [
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "ghee eller olie" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "spidskommenfrø" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "løg i tynde skiver" },
+          { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg i skiver" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "chili-flager eller frisk chili (valgfrit)" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "frisk koriander, hakket" }
+        ],
+        "fremgangsmåde": [
+          "Varm ghee eller olie på en lille pande.",
+          "Tilsæt spidskommenfrø og lad dem bruse kort op.",
+          "Tilsæt løg og steg til de bliver gyldne.",
+          "Tilsæt hvidløg og chili og steg kort uden at brænde det.",
+          "Hæld den varme krydderolie over den færdige daal.",
+          "Drys frisk koriander over lige før servering."
+        ]
+      }
     ],
-    "fremgangsmåde": ["Lav det."],
-    "billede": ""
+    "servering": ["Server varm med basmatiris, naan eller chapati og evt. yoghurt eller syltede grøntsager."],
+    "billede": "../img/ai_main/daal.png"
   },
   {
-    "titel": "Risotto",
+    "titel": "Klassisk cremet risotto",
     "kategori": "hovedret",
     "portioner": 4,
-    "tid": { "tilberedningMin": 25 },
-    "ingredienser": [
-      { "mængde": 1, "enhed": "g", "ingrediens": "x" },
-      { "mængde": 1, "enhed": "tsk", "ingrediens": "y" }
+    "tid": { "forberedelseMin": 10, "tilberedningMin": 30 },
+    "beskrivelse": "Autentisk norditaliensk risotto med arborioris, hvidvin, parmesan og smør, rørt til en cremet konsistens. Kan serveres som den er eller bruges som base for svampe, grøntsager eller skaldyr.",
+    "sektioner": [
+      {
+        "titel": "Risotto",
+        "ingredienser": [
+          { "mængde": 300, "enhed": "g", "ingrediens": "arborio- eller carnaroliris" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "løg eller skalotteløg, finthakket" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "olivenolie" },
+          { "mængde": 50, "enhed": "g", "ingrediens": "smør" },
+          { "mængde": 1, "enhed": "dl", "ingrediens": "tør hvidvin" },
+          { "mængde": 1, "enhed": "l", "ingrediens": "varm grøntsags- eller kyllingebouillon" },
+          { "mængde": 75, "enhed": "g", "ingrediens": "parmesan, fintrevet" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "salt (smag til)" },
+          { "mængde": 1, "enhed": "knsp", "ingrediens": "sort peber" }
+        ],
+        "fremgangsmåde": [
+          "Hold bouillonen varm i en gryde ved siden af.",
+          "Varm olivenolie og halvdelen af smørret i en bred gryde.",
+          "Svits løg ved middel varme til det er blødt uden at tage farve.",
+          "Tilsæt risene og rist dem 1–2 min under omrøring, til de er let gennemsigtige i kanten.",
+          "Hæld hvidvin på og lad den koge næsten helt ind.",
+          "Tilsæt varm bouillon lidt ad gangen, ca. en øsefuld, og rør jævnligt.",
+          "Når væsken næsten er absorberet, tilsættes næste portion bouillon.",
+          "Fortsæt i 18–22 min, til risene er møre men stadig har let bid og konsistensen er cremet.",
+          "Tag gryden af varmen og rør resten af smørret og parmesan i.",
+          "Smag til med salt og peber og justér evt. konsistensen med en smule ekstra bouillon."
+        ]
+      },
+      {
+        "titel": "Servering",
+        "ingredienser": [],
+        "fremgangsmåde": ["Lad risottoen hvile et minut og rør den igennem igen før servering.", "Server straks, mens risottoen stadig er blød og flydende."]
+      }
     ],
-    "fremgangsmåde": ["Lav det."],
-    "billede": ""
+    "servering": ["Server med ekstra parmesan og evt. friskkværnet peber.", "Kan suppleres med stegte svampe, grøntsager, kylling eller skaldyr."],
+    "billede": "../img/ai_main/risotto.png"
+  },
+  {
+    "titel": "Klassisk gullasch (ungarsk inspireret)",
+    "kategori": "hovedret",
+    "portioner": 4,
+    "tid": { "forberedelseMin": 20, "tilberedningMin": 120 },
+    "beskrivelse": "Fyldig og aromatisk gullasch med mørt oksekød, paprika og langsomt simret sauce. Serveres klassisk med kartofler, pasta eller brød.",
+    "sektioner": [
+      {
+        "titel": "Gullasch",
+        "ingredienser": [
+          { "mængde": 800, "enhed": "g", "ingrediens": "oksekød i tern (fx bov eller tykkam)" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "olie eller svinefedt til stegning" },
+          { "mængde": 2, "enhed": "stk", "ingrediens": "løg, grofthakket" },
+          { "mængde": 2, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "tomatpuré" },
+          { "mængde": 2, "enhed": "spsk", "ingrediens": "sød paprika" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "stærk paprika (valgfrit)" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "kommenfrø eller stødt kommen" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "rød peberfrugt i tern" },
+          { "mængde": 400, "enhed": "g", "ingrediens": "hakkede tomater (dåse)" },
+          { "mængde": 600, "enhed": "ml", "ingrediens": "oksebouillon eller vand" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "salt (smag til)" },
+          { "mængde": 1, "enhed": "knsp", "ingrediens": "sort peber" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "laurbærblad" }
+        ],
+        "fremgangsmåde": [
+          "Varm olie eller fedt i en stor gryde og brun kødet i portioner, så det får god stegeskorpe. Tag kødet op undervejs.",
+          "Kom løg i gryden og steg dem ved middel varme til de er bløde og let gyldne.",
+          "Tilsæt hvidløg og tomatpuré og steg kort igennem.",
+          "Tag gryden kort fra varmen og rør paprika og kommen i, så krydderierne ikke brænder på.",
+          "Kom kødet tilbage i gryden sammen med peberfrugt, tomater, bouillon og laurbærblad.",
+          "Lad gullaschen simre under låg ved lav varme i ca. 1½–2 timer, til kødet er meget mørt.",
+          "Rør af og til og tilsæt evt. lidt ekstra væske undervejs.",
+          "Smag til med salt og peber og justér konsistensen efter ønske før servering."
+        ]
+      },
+      {
+        "titel": "Servering",
+        "ingredienser": [],
+        "fremgangsmåde": ["Lad retten hvile 5–10 min før servering, så smagene samler sig.", "Server gullaschen rygende varm."]
+      }
+    ],
+    "servering": ["Server med kogte kartofler, pasta, ris eller frisk brød.", "Kan toppes med en skefuld creme fraiche eller hakket persille."],
+    "billede": "../img/ai_main/gullash.png"
+  },
+  {
+    "titel": "Traditionel Ratatouille",
+    "kategori": "hovedret",
+    "portioner": 4,
+    "tid": { "forberedelseMin": 20, "tilberedningMin": 45 },
+    "beskrivelse": "Klassisk fransk ratatouille fra Provence med aubergine, squash, peberfrugt og tomat, langsomt simret i olivenolie med hvidløg og urter.",
+    "sektioner": [
+      {
+        "titel": "Grøntsager",
+        "ingredienser": [
+          { "mængde": 1, "enhed": "stk", "ingrediens": "aubergine i tern" },
+          { "mængde": 2, "enhed": "stk", "ingrediens": "squash i skiver eller tern" },
+          { "mængde": 2, "enhed": "stk", "ingrediens": "peberfrugter i strimler" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "løg i skiver" },
+          { "mængde": 3, "enhed": "fed", "ingrediens": "hvidløg, finthakket" },
+          { "mængde": 4, "enhed": "stk", "ingrediens": "modne tomater i tern eller 1 dåse hakkede tomater" },
+          { "mængde": 4, "enhed": "spsk", "ingrediens": "olivenolie" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "tørret timian eller herbes de Provence" },
+          { "mængde": 1, "enhed": "stk", "ingrediens": "laurbærblad" },
+          { "mængde": 1, "enhed": "tsk", "ingrediens": "salt (smag til)" },
+          { "mængde": 1, "enhed": "knsp", "ingrediens": "sort peber" }
+        ],
+        "fremgangsmåde": [
+          "Varm en stor pande eller gryde og steg aubergine i lidt af olien, til den får farve og bliver blød. Tag den af panden.",
+          "Steg squash kort i lidt olie og læg til side.",
+          "Steg peberfrugter let møre og læg dem sammen med de øvrige grøntsager.",
+          "Tilsæt resten af olien og steg løg ved middel varme, til de er bløde.",
+          "Tilsæt hvidløg og steg kort uden at det tager farve.",
+          "Kom tomater, laurbær og krydderurter i gryden og lad det simre 5–10 min.",
+          "Kom alle de stegte grøntsager tilbage i gryden og lad retten simre 15–20 min uden låg.",
+          "Rør forsigtigt undervejs, så grøntsagerne holder form.",
+          "Smag til med salt og peber."
+        ]
+      },
+      {
+        "titel": "Servering",
+        "ingredienser": [],
+        "fremgangsmåde": ["Lad ratatouillen hvile 5–10 min før servering.", "Retten kan serveres både varm, lun eller ved stuetemperatur."]
+      }
+    ],
+    "servering": ["Server med brød, ris eller som tilbehør til kød eller fisk.", "Smager ofte endnu bedre dagen efter."],
+    "billede": "../img/ai_main/ratatouille.png"
   }
 ]

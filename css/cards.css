@@ -145,6 +145,13 @@
   grid-template-columns: 1fr;
   gap: 14px;
   margin-top: 12px;
+  color: var(--ink);
+}
+.popover-body summary {
+  padding: 6px;
+  border-radius: 5px;
+  background-color: rgba(229, 238, 238, 0.8);
+  color: var(--panel);
 }
 
 .popover-body h3 {
@@ -252,6 +259,42 @@
 .popover-close:hover {
   background: rgba(255, 255, 255, 0.1);
 }
+
+/* Tilføjelser: Fold ud + 2 kolonne på desktop */
+.recipe-sections {
+  display: grid;
+  gap: 10px;
+}
+
+.recipe-section {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 10px 12px;
+}
+
+.recipe-section > summary {
+  cursor: pointer;
+  font-weight: 700;
+  list-style: none;
+  padding: 4px 2px;
+}
+.recipe-section > summary::-webkit-details-marker {
+  display: none;
+}
+
+.section-grid {
+  margin-top: 10px;
+  display: grid;
+  gap: 12px;
+}
+
+.section-col h4 {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+/*  */
 
 .recipe-popover .popover-body {
   display: grid;

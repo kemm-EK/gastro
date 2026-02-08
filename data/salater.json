@@ -1,0 +1,13 @@
+[
+  {
+    "titel": "Cinoae salata",
+    "portioner": 2,
+    "tid": { "tilberedningMin": 30 },
+    "ingredienser": [
+      { "mængde": 1, "enhed": "g", "ingrediens": "x" },
+      { "mængde": 1, "enhed": "g", "ingrediens": "x", "valgfri": true }
+    ],
+    "fremgangsmåde": ["Lav dem."],
+    "billede": ""
+  }
+]
